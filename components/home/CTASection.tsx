@@ -7,8 +7,6 @@ import { Button } from "@/components/ui/button";
 import { SITE } from "@/lib/constants";
 import { buildWhatsAppUrl } from "@/lib/utils";
 import { QuoteModal } from "@/components/shared/QuoteModal";
-import Link from "next/link";
-
 export function CTASection() {
   const [quoteOpen, setQuoteOpen] = useState(false);
   const ref = useRef(null);

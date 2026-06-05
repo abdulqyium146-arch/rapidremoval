@@ -1,12 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { motion } from "framer-motion";
-import { Phone, Star, Shield, Clock, ChevronRight, MessageCircle } from "lucide-react";
+import { Phone, Star, Shield, Clock, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SITE } from "@/lib/constants";
-import { buildWhatsAppUrl } from "@/lib/utils";
 import { QuoteModal } from "@/components/shared/QuoteModal";
 
 const TRUST_PILLS = [

@@ -3,7 +3,7 @@ import { PageHero } from "@/components/shared/PageHero";
 import { CTASection } from "@/components/home/CTASection";
 import { SchemaMarkup } from "@/components/shared/SchemaMarkup";
 import { SITE, STATS, TRUST_SIGNALS } from "@/lib/constants";
-import { Shield, Clock, Star, MapPin, Users, Award, CheckCircle } from "lucide-react";
+import { Shield, Star, MapPin, Users, Award, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
   title: `About Us | ${SITE.name} | Wolverhampton Removals`,
