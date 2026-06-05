@@ -88,6 +88,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE.url,
   },
+  verification: {
+    google: "8wF_eexPI_YiE5ZafXEnotKqYPqFCvOXJdo-mVM7W3g",
+  },
   category: "Business",
   icons: {
     icon: [
