@@ -88,6 +88,43 @@ export default function ContactPage() {
         showStats={false}
       />
 
+      {/* Google Maps embed — adjacent to NAP for local SEO co-citation */}
+      <section className="bg-brand-neutral border-y border-slate-100" aria-label="Our location on Google Maps">
+        <div className="container mx-auto px-4 sm:px-6 py-10">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-5">
+            <div>
+              <h2 className="text-xl font-extrabold text-brand-dark">Find Us</h2>
+              <address className="not-italic text-brand-muted text-sm mt-0.5">
+                <span className="font-semibold text-brand-dark">{SITE.name}</span>
+                {" · "}{SITE.address.street}, {SITE.address.city}, {SITE.address.county}, {SITE.address.postcode}
+                {" · "}<a href={`tel:${SITE.phone}`} className="hover:text-brand-blue transition-colors">{SITE.phoneDisplay}</a>
+              </address>
+            </div>
+            <a
+              href={`https://www.google.com/maps/place/Get+Rapid+Removals/@52.5036079,-2.4643220,11z`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="shrink-0 inline-flex items-center gap-2 bg-white border border-slate-200 text-brand-dark text-sm font-semibold px-4 py-2 rounded-lg hover:border-brand-blue hover:text-brand-blue transition-colors"
+            >
+              <MapPin className="w-4 h-4" />
+              Open in Google Maps
+            </a>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-card border border-slate-100" style={{ height: "420px" }}>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310866.9665765834!2d-2.4643220328416597!3d52.503607911505426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa7ac0b367a2c3c07%3A0x624dd12b907e635e!2sGet%20Rapid%20Removals!5e0!3m2!1sen!2s!4v1780686456027!5m2!1sen!2s"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Get Rapid Removals — Whitmore Reans, Wolverhampton location on Google Maps"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">

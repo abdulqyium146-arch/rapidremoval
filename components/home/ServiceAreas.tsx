@@ -115,55 +115,24 @@ export function ServiceAreas() {
 
           {/* Right: map placeholder + coverage cards */}
           <div>
-            {/* Coverage map visual */}
+            {/* Google Maps — real GMB listing embed */}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={inView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.6, delay: 0.15 }}
-              className="bg-brand-dark rounded-2xl overflow-hidden mb-5 relative"
+              className="rounded-2xl overflow-hidden mb-5 shadow-card border border-slate-100"
               style={{ height: "280px" }}
             >
-              {/* Stylized map background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-slate-800 to-brand-dark">
-                <div
-                  className="absolute inset-0 opacity-10"
-                  style={{
-                    backgroundImage: `radial-gradient(circle at 2px 2px, rgba(255,255,255,0.4) 1px, transparent 0)`,
-                    backgroundSize: "20px 20px",
-                  }}
-                />
-              </div>
-              {/* Center marker */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-brand-blue rounded-full flex items-center justify-center mx-auto mb-3 shadow-glow-blue animate-float">
-                    <MapPin className="w-8 h-8 text-white" />
-                  </div>
-                  <p className="text-white font-bold text-lg">Wolverhampton</p>
-                  <p className="text-slate-400 text-sm">WV1–WV14 + wider Midlands</p>
-                </div>
-              </div>
-              {/* Area badges on map */}
-              {[
-                { name: "Bilston", top: "65%", left: "55%", delay: 0.3 },
-                { name: "Walsall", top: "50%", left: "72%", delay: 0.4 },
-                { name: "Dudley", top: "72%", left: "40%", delay: 0.5 },
-                { name: "Stafford", top: "15%", left: "40%", delay: 0.35 },
-                { name: "Birmingham", top: "78%", left: "65%", delay: 0.45 },
-              ].map((point) => (
-                <motion.div
-                  key={point.name}
-                  initial={{ opacity: 0, scale: 0 }}
-                  animate={inView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ duration: 0.3, delay: point.delay }}
-                  className="absolute"
-                  style={{ top: point.top, left: point.left, transform: "translate(-50%, -50%)" }}
-                >
-                  <div className="bg-white/20 backdrop-blur-sm border border-white/30 text-white text-xs font-semibold rounded-full px-2.5 py-1 whitespace-nowrap">
-                    {point.name}
-                  </div>
-                </motion.div>
-              ))}
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310866.9665765834!2d-2.4643220328416597!3d52.503607911505426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa7ac0b367a2c3c07%3A0x624dd12b907e635e!2sGet%20Rapid%20Removals!5e0!3m2!1sen!2s!4v1780686456027!5m2!1sen!2s"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Get Rapid Removals service area — Wolverhampton, West Midlands"
+              />
             </motion.div>
 
             {/* Quick area links */}
