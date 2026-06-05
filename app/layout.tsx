@@ -87,6 +87,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: SITE.url,
+    languages: {
+      "en-GB": SITE.url,
+      "x-default": SITE.url,
+    },
   },
   verification: {
     google: "8wF_eexPI_YiE5ZafXEnotKqYPqFCvOXJdo-mVM7W3g",

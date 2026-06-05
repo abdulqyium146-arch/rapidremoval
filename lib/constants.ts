@@ -5,12 +5,12 @@ export const SITE = {
     "Professional house removals, house clearance & man and van services in Wolverhampton & West Midlands.",
   description:
     "Get Rapid Removals is Wolverhampton's trusted local removals and clearance company. We specialise in house removals, house clearance, man and van, office relocations, furniture transport, and professional packing services across Wolverhampton, the West Midlands, and beyond. Fully insured, competitively priced, and available same day.",
-  url: "https://www.getrapidRemovals.co.uk",
-  domain: "getrapidRemovals.co.uk",
+  url: "https://getrapidremovals.co.uk",
+  domain: "getrapidremovals.co.uk",
   phone: "+447778298447",
   phoneDisplay: "07778 298447",
   whatsapp: "447778298447",
-  email: "info@getrapidRemovals.co.uk",
+  email: "info@getrapidremovals.co.uk",
   address: {
     street: "Whitmore Reans",
     city: "Wolverhampton",
