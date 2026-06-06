@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { PageHero } from "@/components/shared/PageHero";
 import { CTASection } from "@/components/home/CTASection";
 import { SchemaMarkup } from "@/components/shared/SchemaMarkup";
@@ -51,6 +52,20 @@ const aboutSchema = {
     "@type": "LocalBusiness",
     name: SITE.name,
     foundingDate: SITE.established,
+    image: [
+      {
+        "@type": "ImageObject",
+        url: `${SITE.url}/images/get-rapid-removals-team-customer-wolverhampton.webp`,
+        name: "Get Rapid Removals team with customer beside branded truck in Wolverhampton",
+        description: "Get Rapid Removals professional removal team with a satisfied customer in Wolverhampton, West Midlands",
+      },
+      {
+        "@type": "ImageObject",
+        url: `${SITE.url}/images/get-rapid-removals-luton-van-wolverhampton.webp`,
+        name: "Get Rapid Removals branded Luton removal van in Wolverhampton",
+        description: "Get Rapid Removals Luton van with company branding and phone number 07778 298447",
+      },
+    ],
     address: {
       "@type": "PostalAddress",
       addressLocality: SITE.address.city,
@@ -108,8 +123,19 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Stats + values */}
+            {/* Team photo + stats */}
             <div className="space-y-5">
+              {/* Real team photo */}
+              <div className="relative rounded-2xl overflow-hidden" style={{ aspectRatio: "4/3" }}>
+                <Image
+                  src="/images/get-rapid-removals-team-customer-wolverhampton.webp"
+                  alt="Get Rapid Removals team member with a happy customer standing beside the branded removal truck in Wolverhampton"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  priority
+                />
+              </div>
               {/* Stats grid */}
               <div className="grid grid-cols-2 gap-3">
                 {STATS.map((stat) => (

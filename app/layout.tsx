@@ -71,7 +71,7 @@ export const metadata: Metadata = {
       "Professional house removals, house clearance & man and van services in Wolverhampton. Fully insured, 5-star rated, free quotes. Call 07778 298447.",
     images: [
       {
-        url: `${SITE.url}/og-image.jpg`,
+        url: `${SITE.url}/og-image.webp`,
         width: 1200,
         height: 630,
         alt: `${SITE.name} — Wolverhampton Removals & Clearance`,
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: `${SITE.name} | House Removals Wolverhampton`,
     description:
       "Professional removals & house clearance in Wolverhampton. 5.0★ rated, fully insured, free quotes. Same day available.",
-    images: [`${SITE.url}/og-image.jpg`],
+    images: [`${SITE.url}/og-image.webp`],
   },
   alternates: {
     canonical: SITE.url,

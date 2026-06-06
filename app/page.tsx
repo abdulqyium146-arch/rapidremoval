@@ -6,6 +6,7 @@ import { StatsSection } from "@/components/home/StatsSection";
 import { WhyChooseUs } from "@/components/home/WhyChooseUs";
 import { ProcessTimeline } from "@/components/home/ProcessTimeline";
 import { ReviewsCarousel } from "@/components/home/ReviewsCarousel";
+import { WorkGallery } from "@/components/home/WorkGallery";
 import { ServiceAreas } from "@/components/home/ServiceAreas";
 import { FAQSection } from "@/components/home/FAQSection";
 import { CTASection } from "@/components/home/CTASection";
@@ -56,6 +57,7 @@ export default function HomePage() {
       <WhyChooseUs />
       <ProcessTimeline />
       <ReviewsCarousel />
+      <WorkGallery />
       <ServiceAreas />
       <FAQSection />
       <CTASection />
