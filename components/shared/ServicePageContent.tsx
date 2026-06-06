@@ -2,14 +2,19 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CheckCircle, Phone, Star, ArrowRight } from "lucide-react";
+import { CheckCircle, Phone, Star, ArrowRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
 import { QuoteModal } from "./QuoteModal";
 import type { ServiceData } from "@/lib/types";
 import { SERVICES } from "@/lib/services-data";
-import { SITE } from "@/lib/constants";
+import { SITE, SERVICE_AREAS, PRIMARY_AREAS } from "@/lib/constants";
+
+const ALL_AREA_LINKS = [
+  ...PRIMARY_AREAS.map((a) => ({ name: a.name, slug: a.slug })),
+  ...SERVICE_AREAS.map((a) => ({ name: a.name, slug: a.slug })),
+];
 
 interface ServicePageContentProps {
   service: ServiceData;
@@ -188,22 +193,14 @@ export function ServicePageContent({ service }: ServicePageContentProps) {
                   This service is available across Wolverhampton and the West Midlands.
                 </p>
                 <div className="flex flex-wrap gap-1.5">
-                  {[
-                    "Wolverhampton",
-                    "Bilston",
-                    "Wednesfield",
-                    "Tettenhall",
-                    "Dudley",
-                    "Walsall",
-                    "Cannock",
-                    "Birmingham",
-                  ].map((area) => (
-                    <span
-                      key={area}
-                      className="bg-brand-neutral border border-slate-200 text-brand-dark text-xs rounded-full px-2.5 py-1"
+                  {ALL_AREA_LINKS.map((area) => (
+                    <Link
+                      key={area.slug}
+                      href={`/areas/${area.slug}`}
+                      className="bg-brand-neutral border border-slate-200 text-brand-dark text-xs rounded-full px-2.5 py-1 hover:bg-blue-50 hover:border-brand-blue hover:text-brand-blue transition-colors"
                     >
-                      {area}
-                    </span>
+                      {area.name}
+                    </Link>
                   ))}
                 </div>
               </CardContent>

@@ -18,6 +18,9 @@ const SERVICE_LINKS = [
   { label: "Furniture Removals", href: "/services/furniture-removals" },
   { label: "Packing Services", href: "/services/packing-services" },
   { label: "Same Day Removals", href: "/services/same-day-removals" },
+  { label: "Emergency Removals", href: "/services/emergency-removals" },
+  { label: "Student Moves", href: "/services/student-moves" },
+  { label: "Commercial Moves", href: "/services/commercial-moves" },
   { label: "End of Tenancy", href: "/services/end-of-tenancy-clearance" },
 ];
 
