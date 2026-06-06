@@ -22,6 +22,7 @@ const QUICK_LINKS = [
   { label: "Contact", href: "/contact" },
   { label: "Service Areas", href: "/areas" },
   { label: "Blog & Guides", href: "/blog" },
+  { label: "FAQs", href: "/faq" },
   { label: "Sitemap", href: "/sitemap-html" },
 ];
 
