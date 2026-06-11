@@ -53,42 +53,66 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How much does a house clearance cost in Wolverhampton?",
+      name: "What is a house clearance service?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "House clearance in Wolverhampton typically starts from £150 for a single room and £300–£800 for a full property, depending on the volume of items, number of floors, and access. Partial clearances — garages, lofts, single rooms — are also available at lower cost. Get Rapid Removals provides free, no-obligation clearance quotes.",
+        text: "A house clearance service is the professional removal of all unwanted furniture, appliances, and belongings from a residential property. A licensed clearance company handles all labour, transport, sorting, recycling, and disposal — leaving the property empty and clean. It differs from a skip hire in that the company does all the work for you.",
       },
     },
     {
       "@type": "Question",
-      name: "What is included in a house clearance?",
+      name: "How much does a house clearance service cost in Wolverhampton?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A house clearance includes the removal of all unwanted furniture, appliances, household items, clothing, and general waste from a property. The clearance company loads, transports, and responsibly disposes of, recycles, or donates all items. The property is left cleared and clean.",
+        text: "A house clearance in Wolverhampton typically starts from £150 for a single room and £300–£800 for a full property, depending on volume, floors, and access. Get Rapid Removals provides free, no-obligation fixed-price quotes. Call 07778 298447.",
       },
     },
     {
       "@type": "Question",
-      name: "How do house clearance companies dispose of waste in Wolverhampton?",
+      name: "Can I get a free house clearance service?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Licensed clearance companies sort items for reuse, donation to local charities, recycling, and legal disposal at licensed waste facilities. A legitimate company will be a registered waste carrier — you can verify this on the Environment Agency website. Get Rapid Removals is a licensed waste carrier.",
+        text: "A fully free house clearance is possible if the property contains high-value furniture, antiques, or appliances that can be resold or donated. Get Rapid Removals offers a free on-site assessment to determine whether item value can reduce or eliminate the clearance cost. Most clearances involve a charge based on labour and disposal.",
       },
     },
     {
       "@type": "Question",
-      name: "How quickly can a house clearance be arranged in Wolverhampton?",
+      name: "Do you offer charity house clearance in Wolverhampton?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For urgent clearances in Wolverhampton, Get Rapid Removals can often attend within 1–3 working days. Planned clearances can be booked as far in advance as needed. Call 07778 298447 to check current availability.",
+        text: "Yes. Before any disposal, Get Rapid Removals sorts all usable items for donation to local charities including British Heart Foundation (BHF) and Salvation Army collection points. Donating good-condition furniture and household goods reduces environmental impact and can lower your clearance cost.",
       },
     },
     {
       "@type": "Question",
-      name: "Do house clearance companies buy items?",
+      name: "Do you clear hoarder houses in Wolverhampton?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most professional clearance companies do not purchase items during a clearance. However, they should notify you of any items of apparent value before disposing of them. Get Rapid Removals always reports potentially valuable items to customers before removal.",
+        text: "Yes. Get Rapid Removals has specialist experience with hoarder house clearances across Wolverhampton and the West Midlands. Our team approaches these clearances without judgement — working methodically to sort, donate, recycle, and dispose of accumulated items safely and with respect for the occupant.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is a compassionate house clearance?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A compassionate house clearance is carried out following a bereavement — clearing a loved one's home after they have passed. Get Rapid Removals approaches these clearances with patience, sensitivity, and complete discretion, coordinating with executors, solicitors, and family members at every stage.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do councils offer house clearance services in Wolverhampton?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No. Wolverhampton City Council and other local councils only offer a bulky waste collection for individual large items — they do not provide full house clearance services. For a complete property clearance, you need a licensed private company such as Get Rapid Removals.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you cover Birmingham and Walsall for house clearance?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Get Rapid Removals provides house clearance services across Wolverhampton, Birmingham, Walsall, Dudley, Cannock, and the wider West Midlands. Call 07778 298447 for a free quote in any of these areas.",
       },
     },
   ],
@@ -176,6 +200,19 @@ export default function HouseClearanceWolverhamptonGuidePage() {
 
       <article className="py-14 bg-white">
         <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
+
+          {/* Definitional anchor — featured snippet / AI citation target */}
+          <div className="bg-slate-50 border-l-4 border-brand-blue rounded-r-2xl px-6 py-5 mb-8">
+            <p className="text-xs font-bold text-brand-blue uppercase tracking-widest mb-2">
+              What Is a House Clearance Service?
+            </p>
+            <p className="text-brand-dark leading-relaxed text-base">
+              A <strong>house clearance service</strong> is the professional removal of all unwanted
+              furniture, appliances, household items, and accumulated belongings from a residential
+              property. A licensed company handles all labour, transport, sorting, recycling, and
+              disposal — leaving the property completely empty and clean.
+            </p>
+          </div>
 
           {/* Quick answer */}
           <div className="bg-blue-50 border border-brand-blue/20 rounded-2xl p-6 mb-10">

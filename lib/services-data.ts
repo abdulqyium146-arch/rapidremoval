@@ -101,37 +101,44 @@ Our removal logistics are fully planned before moving day — route, access, veh
   },
   {
     slug: "house-clearance",
-    title: "House Clearance Wolverhampton",
+    title: "House Clearance Service Wolverhampton",
     shortTitle: "House Clearance",
-    metaTitle: "House Clearance Wolverhampton | Get Rapid Removals | Free Quote",
+    metaTitle: "House Clearance Service Wolverhampton | Local, Same-Day | Get Rapid Removals",
     metaDescription:
-      "Fast, professional house clearance in Wolverhampton. Estate clearances, end-of-tenancy, full property clearances. Fully insured. Call 07778 298447.",
-    heroHeadline: "House Clearance Services in Wolverhampton",
+      "Local house clearance service in Wolverhampton, Birmingham & Walsall. Full, estate, hoarder & compassionate clearances. Charity donations arranged. Licensed waste carrier. Free quote: 07778 298447.",
+    heroHeadline: "House Clearance Service in Wolverhampton",
     heroSubheadline:
-      "Fast, thorough property clearances across Wolverhampton. Estate, end-of-tenancy, and full house clearances handled with care.",
+      "Local house clearance service across Wolverhampton, Birmingham, Walsall & the West Midlands. Compassionate estate clearances, hoarder clearances, charity donations, and same-day availability.",
     description:
-      "Professional house clearance in Wolverhampton. We clear any property quickly, responsibly, and with minimal disruption.",
-    longDescription: `Our house clearance service in Wolverhampton is designed for homeowners, landlords, estate agents, executors, and families who need a property cleared quickly, completely, and professionally.
+      "Local house clearance service in Wolverhampton and West Midlands. Full, partial, estate, hoarder, and compassionate clearances. Charity donations arranged. Licensed waste carrier.",
+    longDescription: `A house clearance service is the professional removal of all unwanted furniture, appliances, household items, and accumulated belongings from a residential property. Get Rapid Removals provides a local house clearance service across Wolverhampton, Birmingham, Walsall, Dudley, Cannock, and the wider West Midlands — clearing any property quickly, responsibly, and at a transparent price.
 
-We clear all types of properties — terraced houses, semi-detached homes, flats, apartments, offices, and commercial premises across Wolverhampton and the West Midlands. Whether you need a single room cleared or an entire property emptied, our team works efficiently to complete the job the same day.
+Our house clearance service covers every situation: full property clearances for homeowners preparing a sale; partial clearances of single rooms, garages, lofts, and gardens; estate clearances following a bereavement; landlord and letting agent clearances at end of tenancy; and specialist hoarder house clearances for properties with significant accumulation.
 
-We handle estate clearances after bereavement with the sensitivity and discretion the situation requires. For landlord and letting agent clearances, we work around tenancy schedules and can provide same-day emergency clearances. End-of-tenancy clearances are completed to a high standard so properties are ready for new tenants immediately.
+For bereavement situations, we provide a compassionate house clearance service — handled with sensitivity, discretion, and genuine respect for the emotional significance of belongings. We coordinate with executors, solicitors, and family members at every stage, and our team approaches these clearances with the patience and care they deserve.
 
-All items removed are sorted responsibly — saleable items are donated where possible, recyclable materials are taken to licensed recycling centres, and only non-recyclable waste goes to landfill. We are committed to minimising environmental impact.`,
+For charity house clearance, we sort all usable items for donation to local charities — including British Heart Foundation and Salvation Army collection points — before any disposal takes place. This reduces environmental impact and, where donated or saleable items carry value, can offset the clearance cost. A free on-site assessment allows us to confirm this before quoting.
+
+While some people search for a free house clearance service, most clearances involve a cost based on labour and disposal. However, properties containing high-value furniture, antiques, or appliances may see the quoted price reduced significantly when these items can be resold or donated.
+
+Note: Local councils such as Wolverhampton City Council provide a bulky waste collection service for individual large items, but do not offer full house clearance services. For a complete property clearance, you need a licensed private company. Get Rapid Removals is a registered waste carrier, fully insured, and registered with the Environment Agency.`,
     icon: "trash-2",
     features: [
       "Full and partial property clearances",
-      "Estate and probate clearances",
-      "End-of-tenancy clearances",
-      "Landlord and letting agent clearances",
-      "Garage, loft, and garden clearances",
-      "Same-day service available",
-      "Responsible waste disposal",
-      "Licensed waste carriers",
+      "Estate, probate, and bereavement clearances",
+      "Compassionate clearances — handled with sensitivity and care",
+      "Hoarder house clearances — specialist experience",
+      "End-of-tenancy clearances for landlords and tenants",
+      "Garage, loft, shed, and garden clearances",
+      "Charity donations arranged — BHF and Salvation Army",
+      "Same-day and emergency clearances available",
+      "Licensed waste carrier — Environment Agency registered",
+      "Covering Wolverhampton, Birmingham, Walsall & West Midlands",
     ],
     included: [
       "All labour and loading",
       "Transportation to disposal/recycling",
+      "Charity donation sorting (BHF / Salvation Army)",
       "Responsible sorting and recycling",
       "Full property clearance",
       "Cleanup after removal",
@@ -142,47 +149,98 @@ All items removed are sorted responsibly — saleable items are donated where po
         description: "Every room cleared thoroughly — nothing left behind unless requested.",
       },
       {
-        title: "Responsible Disposal",
-        description: "We recycle and donate wherever possible, minimising landfill waste.",
+        title: "Charity Donations Arranged",
+        description: "Usable items donated to BHF and Salvation Army before disposal, reducing cost and waste.",
       },
       {
-        title: "Sensitive & Discreet",
-        description: "Experienced handling of estate clearances with the respect they deserve.",
+        title: "Compassionate & Discreet",
+        description: "Bereavement and estate clearances handled with patience, sensitivity, and genuine respect.",
       },
       {
         title: "Same-Day Available",
-        description: "Emergency and urgent clearances accepted across Wolverhampton.",
+        description: "Emergency and urgent clearances accepted across Wolverhampton, Birmingham, and Walsall.",
       },
     ],
     faqs: [
       {
-        question: "How long does a house clearance take?",
+        question: "What is a house clearance service?",
         answer:
-          "A 2-bedroom property can typically be cleared in 3–5 hours. Larger properties or heavily furnished homes may take 6–8 hours or span two days.",
+          "A house clearance service is the professional removal of all unwanted furniture, appliances, and belongings from a residential property. A licensed clearance company handles all labour, transport, sorting, recycling, and disposal — leaving the property empty and clean.",
       },
       {
-        question: "Do I need to be present during the clearance?",
+        question: "How much does a house clearance cost in Wolverhampton?",
         answer:
-          "You can be present if you prefer, but many clients trust us to complete the clearance while they attend to other matters. We can collect and return keys.",
+          "A typical 2-bedroom house clearance in Wolverhampton costs £200–£500 depending on the volume of items, access, and whether any furniture can be donated or resold to offset the cost. We provide free no-obligation quotes before any work begins. Call 07778 298447.",
       },
       {
-        question: "What happens to the items you clear?",
+        question: "Can I get a free house clearance service?",
         answer:
-          "We sort all items responsibly. Furniture and goods in good condition are offered for donation. Recyclable materials go to licensed centres. Only genuinely non-recyclable waste is disposed of.",
+          "A fully free house clearance is rare but possible if the property contains high-value furniture, antiques, or appliances that can be resold or donated. We offer a free on-site assessment to determine whether the value of items can reduce or eliminate the cost of clearance.",
+      },
+      {
+        question: "Do you offer charity house clearance in Wolverhampton?",
+        answer:
+          "Yes. Before any disposal, we sort all usable items for donation to local charities including British Heart Foundation (BHF) and Salvation Army collection points. Donating good-condition furniture, clothing, and household goods reduces environmental impact and can lower your clearance cost.",
+      },
+      {
+        question: "Do you clear hoarder houses?",
+        answer:
+          "Yes. We have specialist experience with hoarder house clearances across Wolverhampton and the West Midlands. Our team approaches these clearances without judgement — working methodically to sort, donate, recycle, and dispose of accumulated items safely and with respect for the occupant.",
+      },
+      {
+        question: "What is a compassionate house clearance?",
+        answer:
+          "A compassionate house clearance is a clearance carried out following a bereavement — clearing a loved one's home after they have passed. We approach these clearances with patience, sensitivity, and complete discretion, coordinating with executors, solicitors, and family members at every stage.",
+      },
+      {
+        question: "Do councils offer house clearance services?",
+        answer:
+          "No. Local councils — including Wolverhampton City Council — only offer a bulky waste collection service for individual large items. They do not provide full house clearance services. For a complete property clearance, you need a licensed private company such as Get Rapid Removals.",
+      },
+      {
+        question: "Do you cover Birmingham and Walsall for house clearance?",
+        answer:
+          "Yes. Our house clearance service covers Wolverhampton, Birmingham, Walsall, Dudley, Cannock, and the wider West Midlands. We provide the same professional, licensed clearance service across all areas we cover. Call 07778 298447 for a free quote.",
       },
     ],
     schema: {
       "@type": "Service",
       serviceType: "House Clearance",
-      areaServed: "Wolverhampton",
+      areaServed: ["Wolverhampton", "Birmingham", "Walsall", "Dudley", "West Midlands"],
     },
     relatedServices: ["house-removals", "end-of-tenancy-clearance", "man-and-van"],
     keywords: [
+      "house clearance service Wolverhampton",
+      "house clearance service near me",
+      "house clearance near me Wolverhampton",
+      "local house clearance service",
       "house clearance Wolverhampton",
       "property clearance Wolverhampton",
       "estate clearance Wolverhampton",
+      "house clearance cost Wolverhampton",
+      "how much does house clearance cost",
+      "house clearance prices Wolverhampton",
+      "free house clearance Wolverhampton",
+      "free house clearance service",
+      "free house clearance near me",
+      "charity house clearance Wolverhampton",
+      "charity house clearance near me",
+      "BHF house clearance Wolverhampton",
+      "Salvation Army house clearance Wolverhampton",
+      "hoarder house clearance Wolverhampton",
+      "hoarder clearance near me",
+      "hoarder clearance West Midlands",
+      "compassionate house clearance Wolverhampton",
+      "bereavement house clearance Wolverhampton",
+      "council house clearance Wolverhampton",
+      "house clearance Birmingham",
+      "house clearance Walsall",
+      "house clearance Dudley",
+      "house clearance Cannock",
+      "house clearance West Midlands",
       "end of tenancy clearance Wolverhampton",
       "clearance company Wolverhampton",
+      "licensed waste carrier Wolverhampton",
     ],
   },
   {
