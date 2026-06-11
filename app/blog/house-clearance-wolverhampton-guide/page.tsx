@@ -171,6 +171,46 @@ const faqSchema = {
         text: "A full house clearance covers all furniture (sofas, beds, wardrobes, tables), white goods (fridges, washing machines, cookers), smaller appliances, clothing, bedding, books, crockery, garden furniture, shed contents, loft contents, garage contents, and general household waste. Items not typically included are hazardous materials, clinical waste, or items the customer wishes to keep.",
       },
     },
+    {
+      "@type": "Question",
+      name: "What happens to furniture in a house clearance?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Good-condition furniture is offered to charity — including British Heart Foundation and Salvation Army — or donated to furniture banks. Reusable but worn furniture goes to licensed resale partners or community furniture projects. Damaged furniture is transported to a licensed waste facility where wood, metal, and foam are recycled separately. Specialist items such as pianos and safes are handled with appropriate equipment.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What are the responsibilities of a house clearance company?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A house clearance company is responsible for removing all agreed items safely, transporting them legally in a licensed commercial vehicle, sorting items for charity donation, recycling, and licensed disposal, and leaving the property cleared and clean. They must hold a valid Environment Agency waste carrier licence and carry public liability insurance.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What are the benefits of a house clearance?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The key benefits of hiring a professional house clearance company are: saves significant time (a 3-bed house cleared in one day vs. weeks of personal effort); no heavy lifting or physical risk; responsible recycling and charity donation; protection from liability for illegal waste disposal; reduction in emotional burden for bereaved families; and improved property saleability from a clear, decluttered space.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you need a licence to do house clearance in the UK?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Any company or individual that removes and transports waste commercially in the UK must be a registered waste carrier, licensed by the Environment Agency. You can verify any clearance company's waste carrier status on the Environment Agency public register. Always check before booking — an unlicensed company may fly-tip your waste, leaving you potentially liable.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How to arrange a house clearance?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "To arrange a house clearance: (1) Contact a licensed clearance company and request a free quote. (2) Confirm the scope — rooms, loft, garage, garden. (3) Agree a fixed price and book a date. (4) Before the day, remove items you want to keep and ensure access is clear. (5) On the day, the team clears and sorts everything. The property is left empty and clean.",
+      },
+    },
   ],
 };
 
@@ -244,6 +284,72 @@ const PROBATE_QA = [
     q: "What are the most common inheritance mistakes when clearing a house?",
     a: "The most common mistakes are: selling property or assets before probate is granted; failing to value items correctly for Inheritance Tax; removing items without agreement from all beneficiaries; hiring an unlicensed clearance company (leaving the estate liable for fly-tipping); and missing assets — cash, jewellery, collectibles — that should be declared. Always use a licensed waste carrier and keep records of all items donated or disposed of.",
   },
+];
+
+const HOW_IT_WORKS = [
+  {
+    step: "1",
+    title: "Contact & Get a Quote",
+    desc: "Call or request a quote online. Tell us the property size, number of rooms to clear, and any large or unusual items. We provide free, fixed-price quotes — in person or by phone and photos.",
+  },
+  {
+    step: "2",
+    title: "Confirm Scope & Book",
+    desc: "Agree exactly what is included — rooms, loft, garage, garden, shed. Confirm the price and book your date. No deposit required. We can usually attend within 1–3 working days.",
+  },
+  {
+    step: "3",
+    title: "Prepare the Property",
+    desc: "Remove anything you want to keep before the team arrives. Set aside items for family members or charity. Label anything requiring special care.",
+  },
+  {
+    step: "4",
+    title: "Clearance Day",
+    desc: "The team arrives and systematically clears the property room by room, sorting items for charity donation, recycling, and licensed disposal as they go.",
+  },
+  {
+    step: "5",
+    title: "Property Left Clear",
+    desc: "Once complete, the property is left empty and clean — ready for viewing, sale, re-letting, or handover. We can provide a waste transfer note if required.",
+  },
+];
+
+const PREP_CHECKLIST = [
+  "Walk through every room and remove anything you want to keep before the clearance date",
+  "Set aside items for family members, friends, or specific charities",
+  "Label or photograph any items you want the team to handle with extra care",
+  "Ensure clear vehicle access — parking for a large van, door keys, gate codes",
+  "Confirm whether the loft, garage, and garden are included in the agreed scope",
+  "Mention any fragile, valuable, or hazardous items before the team begins",
+  "Start with large furniture and obvious clutter first — this frees up space to work through smaller items",
+];
+
+const FURNITURE_FATE = [
+  {
+    category: "Good-condition furniture",
+    outcome: "Offered to charity — British Heart Foundation, Salvation Army, and local furniture banks accept sofas, wardrobes, tables, and more. Charity collection can reduce your clearance cost.",
+  },
+  {
+    category: "Reusable but worn furniture",
+    outcome: "Taken to licensed resale partners or community furniture banks where items are assessed, cleaned, and donated to households in need.",
+  },
+  {
+    category: "Damaged or end-of-life furniture",
+    outcome: "Transported to a licensed waste facility. Wood, metal, springs, and foam are separated and recycled wherever possible rather than sent to landfill.",
+  },
+  {
+    category: "Specialist items (pianos, safes, gym equipment)",
+    outcome: "Handled with specialist equipment and additional team members. Always mention heavy or awkward items at the quote stage so we can plan access and loading.",
+  },
+];
+
+const CLEARANCE_BENEFITS = [
+  { title: "Creates usable space", desc: "A cleared property feels larger, lighter, and more liveable — immediately improving quality of life or saleability." },
+  { title: "Saves significant time", desc: "Clearing a 3-bedroom house alone can take weeks. A professional team completes it in a single day." },
+  { title: "No physical effort", desc: "Heavy lifting, carrying, and loading — all handled. No risk of injury or strain to you or your family." },
+  { title: "Supports bereaved families", desc: "Estate clearances are handled with patience and care, reducing the emotional burden on grieving families." },
+  { title: "Responsible disposal", desc: "Items are sorted for charity donation, recycling, and licensed disposal — not fly-tipped. You're protected from liability." },
+  { title: "Increases property value", desc: "A cleared, decluttered property photographs better, shows better, and typically achieves a higher sale price." },
 ];
 
 const RED_FLAGS = [
@@ -432,6 +538,28 @@ export default function HouseClearanceWolverhamptonGuidePage() {
             ))}
           </div>
 
+          {/* Section 3b: How it works / how to arrange */}
+          <h2 className="text-2xl font-extrabold text-brand-dark mb-4">
+            How Do House Clearances Work in the UK?
+          </h2>
+          <p className="text-brand-muted leading-relaxed mb-6">
+            Arranging a house clearance is straightforward. Here is the step-by-step process with
+            Get Rapid Removals — from initial contact to a cleared, clean property.
+          </p>
+          <div className="space-y-3 mb-10">
+            {HOW_IT_WORKS.map((item) => (
+              <div key={item.step} className="flex items-start gap-4 bg-brand-neutral rounded-xl p-4 border border-slate-100">
+                <div className="w-8 h-8 bg-brand-blue rounded-lg flex items-center justify-center text-white text-sm font-extrabold shrink-0">
+                  {item.step}
+                </div>
+                <div>
+                  <p className="font-bold text-brand-dark text-sm mb-1">{item.title}</p>
+                  <p className="text-brand-muted text-sm leading-relaxed">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
           {/* Section 4: What happens to waste */}
           <h2 className="text-2xl font-extrabold text-brand-dark mb-4">
             How Is Clearance Waste Disposed of in Wolverhampton?
@@ -552,6 +680,54 @@ export default function HouseClearanceWolverhamptonGuidePage() {
             </p>
           </div>
 
+          {/* What happens to furniture */}
+          <h2 className="text-2xl font-extrabold text-brand-dark mb-4">
+            What Happens to Furniture in a House Clearance?
+          </h2>
+          <p className="text-brand-muted leading-relaxed mb-5">
+            Furniture is the most asked-about category in any house clearance. Here is exactly what
+            happens to different types of furniture once our team removes it:
+          </p>
+          <div className="space-y-3 mb-6">
+            {FURNITURE_FATE.map((item) => (
+              <div key={item.category} className="bg-brand-neutral rounded-xl p-4 border border-slate-100">
+                <p className="font-bold text-brand-dark text-sm mb-1">{item.category}</p>
+                <p className="text-brand-muted text-sm leading-relaxed">{item.outcome}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-brand-muted leading-relaxed mb-4">
+            <strong>The best way to get rid of unwanted furniture</strong> depends on condition and
+            urgency. Good-condition furniture can be listed free on Facebook Marketplace, Freecycle,
+            or Gumtree. British Heart Foundation and Salvation Army offer free collection services in
+            many UK areas. For a full property with mixed-condition furniture, a clearance company is
+            the most efficient option — they handle everything in a single visit.
+          </p>
+          <p className="text-brand-muted leading-relaxed mb-10">
+            <strong>Do you need a licence to do house clearance in the UK?</strong> Yes. Any
+            company or individual that removes and transports waste commercially must be a registered
+            waste carrier, licensed by the Environment Agency. You can verify any clearance company&apos;s
+            waste carrier licence on the Environment Agency public register at no charge. Get Rapid
+            Removals is a fully licensed waste carrier — licence number available on request.
+          </p>
+
+          {/* Benefits */}
+          <h2 className="text-2xl font-extrabold text-brand-dark mb-4">
+            What Are the Benefits of a House Clearance?
+          </h2>
+          <p className="text-brand-muted leading-relaxed mb-5">
+            For most people, the decision to hire a professional clearance company comes down to
+            time, physical effort, and peace of mind. Here are the key benefits:
+          </p>
+          <div className="grid sm:grid-cols-2 gap-3 mb-10">
+            {CLEARANCE_BENEFITS.map((item) => (
+              <div key={item.title} className="bg-brand-neutral rounded-xl p-4 border border-slate-100">
+                <p className="font-bold text-brand-dark text-sm mb-1">{item.title}</p>
+                <p className="text-brand-muted text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
           {/* Section 6: End of tenancy */}
           <h2 className="text-2xl font-extrabold text-brand-dark mb-4">
             End of Tenancy Clearances in Wolverhampton
@@ -614,6 +790,33 @@ export default function HouseClearanceWolverhamptonGuidePage() {
             ))}
           </div>
 
+          {/* How to prepare */}
+          <h2 className="text-2xl font-extrabold text-brand-dark mb-4">
+            How to Prepare for a House Clearance
+          </h2>
+          <p className="text-brand-muted leading-relaxed mb-5">
+            A little preparation before the clearance date makes the day smoother and ensures nothing
+            important is accidentally removed. Work through this checklist in the days before:
+          </p>
+          <ul className="space-y-2 mb-6">
+            {PREP_CHECKLIST.map((item) => (
+              <li key={item} className="flex items-start gap-3">
+                <CheckCircle className="w-4 h-4 text-brand-green shrink-0 mt-0.5" />
+                <span className="text-brand-muted text-sm">{item}</span>
+              </li>
+            ))}
+          </ul>
+          <div className="bg-brand-neutral rounded-xl p-5 border border-slate-100 mb-10">
+            <p className="font-bold text-brand-dark text-sm mb-1">What is the hardest thing to get rid of when decluttering?</p>
+            <p className="text-brand-muted text-sm leading-relaxed">
+              Sentimental items — photographs, letters, keepsakes — are consistently the hardest to
+              let go of. Our advice: photograph everything before the clearance so you have a visual
+              record of items that are disposed of. For particularly meaningful items, set them aside
+              early and make a deliberate decision rather than leaving it to the last minute under
+              time pressure.
+            </p>
+          </div>
+
           {/* FAQs */}
           <h2 className="text-2xl font-extrabold text-brand-dark mb-6">
             Frequently Asked Questions
@@ -651,6 +854,26 @@ export default function HouseClearanceWolverhamptonGuidePage() {
               {
                 q: "How quickly can a house clearance be arranged in Wolverhampton?",
                 a: "Get Rapid Removals can often arrange clearances within 1–3 working days for urgent situations. Planned clearances can be booked as far in advance as needed. Call 07778 298447 to check availability.",
+              },
+              {
+                q: "What are the responsibilities of a house clearance company?",
+                a: "A professional house clearance company is responsible for: removing all agreed items safely; transporting them legally in a licensed commercial vehicle; sorting items for charity, recycling, and licensed disposal; providing waste transfer documentation if requested; and leaving the property in a cleared, clean state. They must hold a valid Environment Agency waste carrier licence and public liability insurance.",
+              },
+              {
+                q: "Do you need a licence to do house clearance in the UK?",
+                a: "Yes. Any business or individual that removes and transports waste commercially must be a registered waste carrier, licensed by the Environment Agency. You can verify a company's waste carrier status free of charge on the Environment Agency public register. Get Rapid Removals is a fully licensed waste carrier — licence number available on request.",
+              },
+              {
+                q: "How do I get rid of furniture for free in the UK?",
+                a: "Options for free furniture disposal in the UK: British Heart Foundation and Salvation Army offer free collection of good-condition furniture in many areas. Freecycle, Facebook Marketplace (free section), and Gumtree free listings allow you to offer furniture to local collectors. Local councils offer bulky waste collection, though this usually charges a fee per item. A house clearance company may offer a reduced or free clearance if furniture has sufficient resale or donation value.",
+              },
+              {
+                q: "What day is the cheapest for house clearance or removals?",
+                a: "Mid-week days — Monday to Thursday — are typically cheaper for both house clearances and removals in Wolverhampton and the UK. Friday and Saturday are peak days and often carry a small premium due to demand. Booking for a weekday can reduce your cost by 10–20% compared to a weekend date.",
+              },
+              {
+                q: "What is the 5-5-5 decluttering rule?",
+                a: "The 5-5-5 rule is a decluttering decision tool: if you haven't used an item in 5 months, won't use it in the next 5 months, and someone else could benefit from it — let it go. For a full house clearance where the entire property must be cleared, a professional clearance company makes these decisions systematically and at pace across every room.",
               },
             ].map((item) => (
               <div key={item.q} className="bg-brand-neutral rounded-xl p-5 border border-slate-100">

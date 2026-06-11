@@ -217,6 +217,21 @@ Note: Local councils such as Wolverhampton City Council provide a bulky waste co
         answer:
           "House clearance costs reflect professional labour (typically 2–4 operatives), a licensed commercial vehicle, and regulated disposal fees at licensed facilities charged by weight. Compared to multiple skip hires, numerous tip runs, and your own time and labour, a professional clearance is typically equivalent or better value and completed in a single day.",
       },
+      {
+        question: "What happens to furniture in a house clearance?",
+        answer:
+          "Good-condition furniture is offered to charity (BHF, Salvation Army) or furniture banks. Reusable but worn furniture goes to licensed resale partners. Damaged furniture is transported to a licensed waste facility where wood, metal, and foam are recycled separately. Heavy items like pianos are handled with specialist equipment.",
+      },
+      {
+        question: "Do you need a licence to do house clearance in the UK?",
+        answer:
+          "Yes. Any business that removes and transports waste commercially must be a registered waste carrier, licensed by the Environment Agency. You can verify a licence on the Environment Agency public register. Get Rapid Removals is fully licensed. An unlicensed company may fly-tip your waste, leaving you liable.",
+      },
+      {
+        question: "What are the benefits of a house clearance?",
+        answer:
+          "The main benefits are: saves weeks of personal time and effort; no heavy lifting risk; responsible recycling and charity donation; legal protection from fly-tipping liability; reduces emotional burden for bereaved families; and a cleared property sells faster and at a better price.",
+      },
     ],
     schema: {
       "@type": "Service",
