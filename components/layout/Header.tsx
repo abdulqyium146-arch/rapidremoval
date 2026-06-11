@@ -19,11 +19,12 @@ const SERVICE_GROUPS = [
   {
     heading: "Moving Services",
     links: [
-      { label: "House Removals",     href: "/services/house-removals",           desc: "Local & long-distance" },
-      { label: "Man & Van",          href: "/services/man-and-van",              desc: "Flexible hourly hire" },
-      { label: "Furniture Removals", href: "/services/furniture-removals",       desc: "Single items & full loads" },
-      { label: "Office Removals",    href: "/services/office-removals",          desc: "Commercial relocations" },
-      { label: "Packing Services",   href: "/services/packing-services",         desc: "Full & partial packing" },
+      { label: "House Removals",         href: "/services/house-removals",           desc: "Local & in-county moves" },
+      { label: "Long Distance Removals", href: "/services/long-distance-removals",   desc: "Inter-county & UK-wide" },
+      { label: "Man & Van",              href: "/services/man-and-van",              desc: "Flexible & shared moves" },
+      { label: "Furniture Removals",     href: "/services/furniture-removals",       desc: "Oversized & single items" },
+      { label: "Office Removals",        href: "/services/office-removals",          desc: "Commercial relocations" },
+      { label: "Packing Services",       href: "/services/packing-services",         desc: "Full & partial packing" },
     ],
   },
   {
@@ -31,7 +32,7 @@ const SERVICE_GROUPS = [
     links: [
       { label: "House Clearance",    href: "/services/house-clearance",          desc: "Full property clearance" },
       { label: "End of Tenancy",     href: "/services/end-of-tenancy-clearance", desc: "Landlords & tenants" },
-      { label: "Commercial Moves",   href: "/services/commercial-moves",         desc: "Business relocations" },
+      { label: "Commercial Moves",   href: "/services/commercial-moves",         desc: "Business & corporate moves" },
     ],
   },
   {
@@ -40,6 +41,7 @@ const SERVICE_GROUPS = [
       { label: "Same Day Removals",  href: "/services/same-day-removals",        desc: "Today's availability" },
       { label: "Emergency Removals", href: "/services/emergency-removals",       desc: "Rapid response, 7 days" },
       { label: "Student Moves",      href: "/services/student-moves",            desc: "Affordable student moves" },
+      { label: "Senior Moves",       href: "/services/senior-moves",             desc: "Patient, caring service" },
     ],
   },
 ];

@@ -17,9 +17,9 @@ export const SERVICES: ServiceData[] = [
 
 Our experienced removal team handles every detail — from carefully wrapping fragile items and disassembling furniture to loading our vehicle with precision and unloading at your new home. We use professional packing materials and furniture blankets to protect your belongings throughout every stage of the move.
 
-Whether you're moving from a studio flat, a 4-bedroom family home, or a large detached property, we scale our team and vehicles to your exact needs. We cover local moves within Wolverhampton, regional moves across the West Midlands, and long-distance removals throughout the UK.
+Whether you're moving from a studio flat, a 4-bedroom family home, or a large detached property, we scale our team and vehicles to your exact needs. For local moving within Wolverhampton and in-county moves across the West Midlands, we offer competitive fixed-day rates. For inter-county and long-distance removals throughout the UK, we provide fixed-price quotes so there are no surprises.
 
-All our house removals are fully insured with goods-in-transit and public liability cover, giving you complete peace of mind on moving day.`,
+Our removal logistics are fully planned before moving day — route, access, vehicle size, and team composition are all confirmed in advance so everything runs smoothly from start to finish. All house removals are fully insured with goods-in-transit and public liability cover, giving you complete peace of mind.`,
     icon: "home",
     features: [
       "Full loading and unloading",
@@ -92,6 +92,10 @@ All our house removals are fully insured with goods-in-transit and public liabil
       "moving company Wolverhampton",
       "house movers Wolverhampton",
       "local removals Wolverhampton",
+      "local moving Wolverhampton",
+      "in-county removals West Midlands",
+      "inter-county removals Wolverhampton",
+      "removal logistics Wolverhampton",
       "professional removals West Midlands",
     ],
   },
@@ -197,12 +201,13 @@ All items removed are sorted responsibly — saleable items are donated where po
 
 Available 7 days a week with same-day bookings accepted, our man and van service is competitively priced and incredibly flexible. You get a professional, experienced driver with a clean, well-maintained van — plus the muscle to handle loading and unloading so you don't have to.
 
-Perfect for flat and apartment moves, single room moves, eBay and Facebook Marketplace collections, IKEA and furniture store collections, student term-time moves, and any situation where you need a reliable van with a professional driver.
+Perfect for flat and apartment moves, single room moves, eBay and Facebook Marketplace collections, IKEA and furniture store collections, student term-time moves, and any situation where you need a reliable van with a professional driver. We also offer shared moving services — ideal if you're moving a single room in a house share or have a small part-load that doesn't fill a full van. Shared removals keep costs low while still delivering professional handling and full logistics coordination.
 
 We cover all of Wolverhampton including Whitmore Reans, Penn, Fordhouses, Bushbury, Blakenhall, Lanesfield, and Parkfields, as well as Bilston, Wednesfield, Tettenhall, Dudley, Walsall, and the wider West Midlands.`,
     icon: "truck",
     features: [
       "Single and multi-item moves",
+      "Shared and part-load moving services",
       "Student and flat moves",
       "Furniture collections and deliveries",
       "eBay and marketplace collections",
@@ -261,6 +266,9 @@ We cover all of Wolverhampton including Whitmore Reans, Penn, Fordhouses, Bushbu
       "man with van Wolverhampton",
       "cheap man and van Wolverhampton",
       "same day man and van Wolverhampton",
+      "shared removals Wolverhampton",
+      "part load moving Wolverhampton",
+      "small move Wolverhampton",
     ],
   },
   {
@@ -357,19 +365,23 @@ Whether you're moving across the same business park or relocating your entire op
       "Safe, careful furniture removals across Wolverhampton. Single items or entire rooms — we handle it all.",
     description:
       "Professional furniture removal and delivery in Wolverhampton. Single items, multiple pieces, and specialist heavy furniture handled with care.",
-    longDescription: `Need a sofa moved to a different room, a wardrobe transported to your new flat, or a large bed frame collected from a store? Get Rapid Removals handles all furniture removals across Wolverhampton and the West Midlands.
+    longDescription: `Need a sofa moved to a different room, a wardrobe transported to your new flat, or a large bed frame collected from a store? Get Rapid Removals handles all furniture removals across Wolverhampton and the West Midlands — from small furniture items to full room moves.
 
 We understand that furniture is often heavy, awkward, and valuable. Our team uses the right equipment — moving straps, furniture dollies, and protective blankets — to move every piece safely without damaging floors, walls, or doorframes.
 
-We regularly assist with flat pack furniture assembly and disassembly, including IKEA, Argos, and other flat pack brands. Whether it needs to come apart to fit through a narrow doorway or be rebuilt in your new room, we've got it covered.
+We specialise in oversized item moving: pianos, safes, American-style fridge-freezers, large gym equipment, and other heavy or awkward pieces that require specialist object-related moving assistance. These are handled with professional lifting equipment, proper strapping, and, where necessary, disassembly and reassembly to navigate tight staircases and doorways.
 
-Our furniture removal service is available 7 days a week with same-day bookings accepted when available. Perfect for single item collections from Facebook Marketplace, eBay, or furniture stores, as well as multi-room furniture moves when you're relocating.`,
+For smaller requirements, our small furniture moving service covers individual chairs, coffee tables, bedside units, shelving units, and single items from eBay or Facebook Marketplace. No job is too small. We also regularly assist with flat pack assembly and disassembly — IKEA, Argos, and other brands — and can rebuild furniture at your new address.`,
     icon: "armchair",
     features: [
       "Single and multi-item removals",
+      "Small furniture and single item moves",
+      "Oversized and specialist item moving",
+      "Piano and safe relocation",
       "Sofa and suite transport",
       "Wardrobe and bedroom furniture",
       "Heavy and awkward items",
+      "Object-related moving assistance",
       "Flat pack assembly/disassembly",
       "Marketplace and store collections",
       "Floor and wall protection",
@@ -415,6 +427,10 @@ Our furniture removal service is available 7 days a week with same-day bookings 
       "sofa removal Wolverhampton",
       "furniture delivery Wolverhampton",
       "furniture transport Wolverhampton",
+      "oversized item removal Wolverhampton",
+      "piano removal Wolverhampton",
+      "small furniture removal Wolverhampton",
+      "object removal Wolverhampton",
     ],
   },
   {
@@ -801,9 +817,9 @@ Same-day and next-day clearances are available across Wolverhampton. We can coll
 
 We understand that commercial relocations require a different level of planning and coordination than residential moves. We assign a dedicated project coordinator to your move who will conduct a thorough survey, create a detailed logistics plan, and manage the entire project from initial planning through to final positioning at your new premises.
 
-Our commercial fleet includes small vans, Luton vans, and large commercial vehicles — ensuring we have the right capacity for your move regardless of scale. We handle heavy commercial furniture, racking systems, stock and inventory, catering equipment, shop fittings, and industrial machinery.
+As a trusted partner for business and corporate-related moving across the West Midlands, we manage end-to-end relocation logistics for companies of all sizes — from sole traders and SMEs to large corporate entities. Our commercial removal logistics service includes route planning, scheduling, inventory management, and coordination with building management to ensure loading bay access, lift reservations, and site security are all arranged in advance.
 
-Out-of-hours, weekend, and phased moves are available to ensure your business continues to trade with minimal disruption.`,
+Our commercial fleet includes small vans, Luton vans, and large commercial vehicles — ensuring the right capacity for your move regardless of scale. We handle heavy commercial furniture, racking systems, stock and inventory, catering equipment, shop fittings, and industrial machinery. Out-of-hours, weekend, and phased moves are available to ensure your business continues to trade with minimal disruption.`,
     icon: "warehouse",
     features: [
       "Full commercial relocation",
@@ -861,6 +877,185 @@ Out-of-hours, weekend, and phased moves are available to ensure your business co
       "business removals Wolverhampton",
       "commercial moving Wolverhampton",
       "warehouse removals Wolverhampton",
+      "corporate moving Wolverhampton",
+      "business logistics Wolverhampton",
+      "commercial relocation logistics West Midlands",
+    ],
+  },
+  {
+    slug: "senior-moves",
+    title: "Senior Removals Wolverhampton",
+    shortTitle: "Senior Moves",
+    metaTitle: "Senior Removals Wolverhampton | Elderly Moving Specialists | Get Rapid Removals",
+    metaDescription:
+      "Specialist senior and elderly removals in Wolverhampton. Patient, caring team for downsizing, care home moves, and supported transitions. Free quote: 07778 298447.",
+    heroHeadline: "Senior Moving Services in Wolverhampton",
+    heroSubheadline:
+      "Patient, caring specialist removals for seniors and elderly customers across Wolverhampton and the West Midlands.",
+    description:
+      "Specialist senior removal service for Wolverhampton — patient, caring moves for downsizing, care home transitions, and elderly customers.",
+    longDescription: `Moving later in life comes with unique challenges — sentimental belongings, years of accumulated items, and the emotional weight of leaving a long-time home. Get Rapid Removals provides a specialist senior moving service designed around the pace, comfort, and individual needs of older customers.
+
+Our team is trained to work patiently and empathetically with seniors and their families. We take extra care with treasured belongings, work at a comfortable pace, and communicate clearly at every stage. We are experienced in moves to smaller properties, sheltered housing, assisted living facilities, and care homes across Wolverhampton and the West Midlands.
+
+Senior downsizing is a major part of what we do — helping identify what moves to the new home, what can be donated to family or charity, and what requires responsible disposal. We coordinate with families, care coordinators, and social workers when needed to ensure the transition is as smooth and stress-free as possible.
+
+All senior removals are handled with full goods-in-transit and public liability insurance, giving families complete peace of mind throughout the process.`,
+    icon: "users",
+    features: [
+      "Patient, compassionate moving team",
+      "Downsizing and decluttering assistance",
+      "Care home and sheltered housing moves",
+      "Family and care coordinator liaison",
+      "Fragile and sentimental item handling",
+      "Flexible pace — no rush approach",
+      "Full packing and unpacking available",
+      "Weekend and flexible scheduling",
+    ],
+    included: [
+      "Dedicated caring team",
+      "Full loading and unloading",
+      "Careful fragile item handling",
+      "Furniture placement at new home",
+      "Goods-in-transit insurance",
+      "Free no-obligation quote",
+    ],
+    notIncluded: ["Clearance and disposal of unwanted items (available as add-on)"],
+    benefits: [
+      {
+        title: "Specialist Senior Team",
+        description: "Patient, empathetic movers experienced with elderly and senior customers.",
+      },
+      {
+        title: "Downsizing Support",
+        description: "Help coordinating what moves, what's donated, and what's responsibly disposed of.",
+      },
+      {
+        title: "Family Coordination",
+        description: "We communicate with family members and care coordinators throughout.",
+      },
+      {
+        title: "No-Rush Approach",
+        description: "Moves scheduled around the senior's comfort and routine — never rushed.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do you move seniors into care homes in Wolverhampton?",
+        answer:
+          "Yes. We regularly move senior customers into care homes, sheltered housing, and assisted living facilities across Wolverhampton and the West Midlands, handling everything with care and sensitivity.",
+      },
+      {
+        question: "Can you help with downsizing?",
+        answer:
+          "Yes. Our senior moving service includes support with downsizing — helping identify what goes to the new property, what can be donated to charity, and what requires responsible disposal.",
+      },
+      {
+        question: "Can family members be present during the move?",
+        answer:
+          "Absolutely. We encourage family involvement and are happy to coordinate with family members or care coordinators to ensure the move goes smoothly.",
+      },
+    ],
+    schema: {
+      "@type": "Service",
+      serviceType: "Senior Moving",
+      areaServed: "Wolverhampton",
+    },
+    relatedServices: ["house-removals", "house-clearance", "packing-services"],
+    keywords: [
+      "senior removals Wolverhampton",
+      "elderly moving service Wolverhampton",
+      "care home moving Wolverhampton",
+      "senior downsizing Wolverhampton",
+      "older people removals West Midlands",
+    ],
+  },
+  {
+    slug: "long-distance-removals",
+    title: "Long Distance Removals Wolverhampton",
+    shortTitle: "Long Distance Removals",
+    metaTitle: "Long Distance Removals Wolverhampton | UK-Wide | Get Rapid Removals",
+    metaDescription:
+      "Professional long distance and inter-county removals from Wolverhampton. UK-wide coverage, fixed-price quotes, fully insured. Free quote: 07778 298447.",
+    heroHeadline: "Long Distance Removals from Wolverhampton",
+    heroSubheadline:
+      "UK-wide inter-county and long-distance house removals from Wolverhampton. Fixed-price quotes, fully insured, professional team.",
+    description:
+      "Long distance removal service from Wolverhampton. Inter-county moves and nationwide UK relocations. Fully insured with fixed-price quotes.",
+    longDescription: `Moving long distance — whether inter-county, to another region of England, or to Scotland or Wales — requires a removal company with the capacity, experience, and route knowledge to deliver your belongings safely. Get Rapid Removals provides professional long-distance removals from Wolverhampton to anywhere in the UK.
+
+Our long-distance removal service covers every type of inter-county move: relocating for work, moving closer to family, downsizing to the countryside, or starting fresh in a new city. We provide fixed-price quotes for all long-distance moves so you know exactly what you'll pay — no hidden mileage charges or fuel surprises.
+
+All long-distance removals include the same professional standard you'd expect from a local move: full loading with furniture blankets and transit strapping, careful professional transport, and thorough unloading and placement at your destination. Our long-distance logistics are planned well in advance — route, access, drive times, and team composition all confirmed before the day.
+
+We regularly complete long-distance moves from Wolverhampton to London, Manchester, Bristol, Leeds, Cardiff, Edinburgh, and everywhere in between. Whether it's a studio flat or a 5-bedroom home, we scale the team and vehicles to match.`,
+    icon: "map-pin",
+    features: [
+      "Nationwide UK coverage",
+      "Fixed-price long-distance quotes",
+      "Inter-county and cross-region moves",
+      "Professional transit protection and strapping",
+      "Full loading and unloading",
+      "Multi-van capacity for large homes",
+      "Flexible moving dates",
+      "Fully insured UK-wide",
+    ],
+    included: [
+      "Free no-obligation quote",
+      "Professional loading team",
+      "Transit blankets and strapping",
+      "Long-distance vehicle",
+      "Full goods-in-transit insurance",
+      "Unloading and furniture placement",
+    ],
+    notIncluded: ["Packing service (available as add-on)", "International removals"],
+    benefits: [
+      {
+        title: "Fixed-Price Guarantee",
+        description: "Your long-distance quote is your final price — no mileage surcharges.",
+      },
+      {
+        title: "UK-Wide Coverage",
+        description: "From Wolverhampton to any county in England, Scotland, or Wales.",
+      },
+      {
+        title: "Professional Transit",
+        description: "Specialist securing and protection engineered for longer journeys.",
+      },
+      {
+        title: "Experienced Long-Distance Team",
+        description: "Dedicated crew experienced in inter-county logistics and UK-wide moves.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How much does a long-distance removal from Wolverhampton cost?",
+        answer:
+          "A 2-bedroom move to London typically costs £600–£900. A 3-bedroom move to Scotland may cost £900–£1,400. All quotes are fixed-price — contact us for an exact quote based on your property and destination.",
+      },
+      {
+        question: "Do you cover Scotland and Wales?",
+        answer:
+          "Yes. We cover the whole of the UK including Scotland and Wales. All long-distance moves include full insurance coverage throughout.",
+      },
+      {
+        question: "Can a long-distance move be done in one day?",
+        answer:
+          "Many long-distance moves can be completed in a single day. For very long journeys (e.g. Wolverhampton to Edinburgh), an overnight stop or very early start may be required — we discuss this openly during the survey.",
+      },
+    ],
+    schema: {
+      "@type": "Service",
+      serviceType: "Long Distance Removals",
+      areaServed: "United Kingdom",
+    },
+    relatedServices: ["house-removals", "packing-services", "man-and-van"],
+    keywords: [
+      "long distance removals Wolverhampton",
+      "UK removals from Wolverhampton",
+      "inter-county removals Wolverhampton",
+      "nationwide removals Wolverhampton",
+      "long distance moving West Midlands",
     ],
   },
 ];

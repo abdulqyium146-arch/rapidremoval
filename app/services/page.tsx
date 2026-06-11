@@ -3,6 +3,7 @@ import Link from "next/link";
 import {
   Home, Trash2, Truck, Building2, Armchair, Package,
   GraduationCap, Zap, AlertCircle, Key, Warehouse, ArrowRight,
+  Users, MapPin,
 } from "lucide-react";
 import { PageHero } from "@/components/shared/PageHero";
 import { CTASection } from "@/components/home/CTASection";
@@ -22,6 +23,7 @@ const ICONS: Record<string, React.ElementType> = {
   home: Home, "trash-2": Trash2, truck: Truck, "building-2": Building2,
   armchair: Armchair, package: Package, "graduation-cap": GraduationCap,
   zap: Zap, "alert-circle": AlertCircle, key: Key, warehouse: Warehouse,
+  users: Users, "map-pin": MapPin,
 };
 
 export default function ServicesPage() {

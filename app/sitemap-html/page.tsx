@@ -14,11 +14,13 @@ export const metadata: Metadata = {
 
 const SERVICES = [
   { label: "House Removals Wolverhampton", href: "/services/house-removals" },
+  { label: "Long Distance Removals Wolverhampton", href: "/services/long-distance-removals" },
   { label: "House Clearance Wolverhampton", href: "/services/house-clearance" },
   { label: "Man & Van Wolverhampton", href: "/services/man-and-van" },
   { label: "Office Removals Wolverhampton", href: "/services/office-removals" },
   { label: "Furniture Removals Wolverhampton", href: "/services/furniture-removals" },
   { label: "Packing Services Wolverhampton", href: "/services/packing-services" },
+  { label: "Senior Moves Wolverhampton", href: "/services/senior-moves" },
   { label: "Student Moves Wolverhampton", href: "/services/student-moves" },
   { label: "Same Day Removals Wolverhampton", href: "/services/same-day-removals" },
   { label: "Emergency Removals Wolverhampton", href: "/services/emergency-removals" },

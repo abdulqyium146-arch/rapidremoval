@@ -5,6 +5,7 @@ import { SITE } from "@/lib/constants";
 // Cluster 1: Moving Services (hub → spoke PageRank flow)
 const MOVING_SERVICES = [
   { label: "House Removals", href: "/services/house-removals" },
+  { label: "Long Distance Removals", href: "/services/long-distance-removals" },
   { label: "Man & Van", href: "/services/man-and-van" },
   { label: "Furniture Removals", href: "/services/furniture-removals" },
   { label: "Office Removals", href: "/services/office-removals" },
@@ -19,6 +20,7 @@ const CLEARANCE_SERVICES = [
   { label: "Same Day Removals", href: "/services/same-day-removals" },
   { label: "Emergency Removals", href: "/services/emergency-removals" },
   { label: "Student Moves", href: "/services/student-moves" },
+  { label: "Senior Moves", href: "/services/senior-moves" },
 ];
 
 // Cluster 3: Geographic — Local (Wolverhampton core)
