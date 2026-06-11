@@ -13,58 +13,31 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
-    slug: "how-to-prepare-for-a-house-removal",
-    title: "How to Prepare for a House Removal: The Ultimate Checklist",
+    slug: "house-removal-cost-wolverhampton",
+    title: "How Much Does a House Removal Cost in Wolverhampton? [2025 Price Guide]",
     excerpt:
-      "Moving house is one of life's biggest events. Our comprehensive checklist covers everything from 8 weeks before moving day to the day itself.",
-    date: "2024-11-15",
+      "Full breakdown of 2025 house removal prices in Wolverhampton — by property size, distance, and service type. Includes pricing tables, hidden fee warnings, and how to get a fair quote.",
+    date: "2025-06-01",
+    readTime: "8 min read",
+    category: "House Removals",
+  },
+  {
+    slug: "how-to-prepare-for-a-house-removal",
+    title: "How to Prepare for a House Removal: The Complete Checklist",
+    excerpt:
+      "Week-by-week moving house checklist from our professional removal team — covering 8 weeks out, packing tips, moving day morning, and arriving at your new home.",
+    date: "2025-06-01",
     readTime: "8 min read",
     category: "House Removals",
   },
   {
     slug: "house-clearance-wolverhampton-guide",
-    title: "House Clearance in Wolverhampton: What You Need to Know",
+    title: "House Clearance in Wolverhampton: Costs, Process & Complete Guide",
     excerpt:
-      "Everything you need to know about arranging a house clearance in Wolverhampton — costs, what's included, and how to choose the right company.",
-    date: "2024-10-22",
-    readTime: "6 min read",
-    category: "House Clearance",
-  },
-  {
-    slug: "man-and-van-vs-removal-company",
-    title: "Man and Van vs Removal Company: Which Do You Need?",
-    excerpt:
-      "Not sure whether to book a man and van or a full removal company? We break down the key differences, costs, and which is right for your move.",
-    date: "2024-09-10",
-    readTime: "5 min read",
-    category: "Moving Advice",
-  },
-  {
-    slug: "packing-tips-for-moving-home",
-    title: "10 Expert Packing Tips for Moving Home",
-    excerpt:
-      "Avoid broken items and moving day chaos with our professional packing tips — used by our experienced packing team on every job.",
-    date: "2024-08-05",
+      "What house clearance costs in Wolverhampton in 2025, what's included, how waste is responsibly disposed of, and how to avoid rogue clearance companies.",
+    date: "2025-06-01",
     readTime: "7 min read",
-    category: "Packing Tips",
-  },
-  {
-    slug: "end-of-tenancy-clearance-guide",
-    title: "End of Tenancy Clearance: A Complete Guide for Landlords",
-    excerpt:
-      "A practical guide for landlords and letting agents on how to arrange a fast, thorough end-of-tenancy clearance in the West Midlands.",
-    date: "2024-07-18",
-    readTime: "6 min read",
     category: "House Clearance",
-  },
-  {
-    slug: "office-relocation-checklist",
-    title: "Office Relocation Checklist: Moving Your Business Without Downtime",
-    excerpt:
-      "Our office relocation checklist helps Wolverhampton businesses plan their commercial move and minimise disruption from start to finish.",
-    date: "2024-06-30",
-    readTime: "9 min read",
-    category: "Office Removals",
   },
 ];
 

@@ -89,5 +89,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: area.slug === "wolverhampton" ? 0.9 : 0.8,
   }));
 
-  return [...staticPages, ...servicePages, ...areaPages];
+  const blogPosts: MetadataRoute.Sitemap = [
+    "house-removal-cost-wolverhampton",
+    "how-to-prepare-for-a-house-removal",
+    "house-clearance-wolverhampton-guide",
+  ].map((slug) => ({
+    url: `${SITE.url}/blog/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
+
+  return [...staticPages, ...servicePages, ...areaPages, ...blogPosts];
 }
