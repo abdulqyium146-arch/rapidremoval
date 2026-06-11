@@ -27,6 +27,11 @@ const GALLERY = [
     caption: "Every item fully protected",
   },
   {
+    src: "/images/get-rapid-removals-van-packed-interior-wolverhampton.webp",
+    alt: "Inside a Get Rapid Removals van packed with household furniture, boxes, wrapped items and luggage — fully loaded for a house removal in Wolverhampton",
+    caption: "Every cubic inch used efficiently",
+  },
+  {
     src: "/images/house-removals-van-loaded-wolverhampton.webp",
     alt: "Inside Get Rapid Removals removal van fully loaded with wrapped and blanketed household furniture — safe and secure packing",
     caption: "Safe, secure loading every time",
@@ -83,7 +88,7 @@ export function WorkGallery() {
               initial={{ opacity: 0, y: 16 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.45, delay: 0.1 + i * 0.07 }}
-              className="group relative overflow-hidden rounded-xl bg-brand-neutral"
+              className={`group relative overflow-hidden rounded-xl bg-brand-neutral${i === GALLERY.length - 1 && GALLERY.length % 3 === 1 ? " md:col-span-3" : GALLERY.length % 3 === 2 && i === GALLERY.length - 1 ? " col-span-2 md:col-span-1" : ""}`}
             >
               <div className="relative aspect-square">
                 <Image
