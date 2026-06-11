@@ -1,5 +1,7 @@
 export const SITE = {
   name: "Get Rapid Removals",
+  legalName: "Get Rapid Removals Ltd",
+  companyNumber: "15457292",
   tagline: "Wolverhampton's Most Trusted Removals Company",
   shortDescription:
     "Professional house removals, house clearance & man and van services in Wolverhampton & West Midlands.",
@@ -36,9 +38,10 @@ export const SITE = {
     sunday: "08:00–18:00",
   },
   social: {
-    facebook: "",
+    facebook: "https://www.facebook.com/GetRapidRemovalsltd/",
     instagram: "",
     google: "",
+    companiesHouse: "https://find-and-update.company-information.service.gov.uk/company/15457292",
   },
 };
 
@@ -74,11 +77,11 @@ export const ALL_AREAS = [...PRIMARY_AREAS, ...SERVICE_AREAS];
 export const TRUST_SIGNALS = [
   { label: "Fully Insured", icon: "shield" },
   { label: "5.0★ Google Rating", icon: "star" },
+  { label: "Registered Ltd Company", icon: "building" },
   { label: "Free Quotes", icon: "tag" },
   { label: "Same Day Available", icon: "clock" },
   { label: "5+ Years Experience", icon: "award" },
   { label: "No Hidden Fees", icon: "check" },
-  { label: "Weekend & Evening", icon: "calendar" },
   { label: "Professional Team", icon: "users" },
 ];
 

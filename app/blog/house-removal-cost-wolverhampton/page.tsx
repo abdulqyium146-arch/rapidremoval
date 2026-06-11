@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SchemaMarkup } from "@/components/shared/SchemaMarkup";
 import { CTASection } from "@/components/home/CTASection";
 import { SITE } from "@/lib/constants";
-import { CheckCircle, ArrowRight, Phone } from "lucide-react";
+import { CheckCircle, ArrowRight, Phone, ExternalLink, Truck } from "lucide-react";
 
 export const metadata: Metadata = {
   title: `How Much Does a House Removal Cost in Wolverhampton? [2025 Guide] | ${SITE.name}`,
@@ -30,12 +30,15 @@ const articleSchema = {
   dateModified: "2025-06-01",
   author: {
     "@type": "Organization",
-    name: SITE.name,
+    "@id": `${SITE.url}/#business`,
+    name: SITE.legalName,
     url: SITE.url,
+    sameAs: [SITE.social.facebook, SITE.social.companiesHouse],
   },
   publisher: {
     "@type": "Organization",
-    name: SITE.name,
+    "@id": `${SITE.url}/#business`,
+    name: SITE.legalName,
     url: SITE.url,
   },
   mainEntityOfPage: {
@@ -535,6 +538,32 @@ export default function HouseRemovalCostPage() {
               <Phone className="w-4 h-4" />
               {SITE.phoneDisplay}
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Author attribution — E-E-A-T signal */}
+      <section className="py-8 bg-white border-t border-slate-100">
+        <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
+          <div className="flex items-start gap-4 bg-brand-neutral rounded-2xl p-5 border border-slate-100">
+            <div className="w-12 h-12 bg-brand-blue rounded-xl flex items-center justify-center shrink-0">
+              <Truck className="w-6 h-6 text-white" />
+            </div>
+            <div>
+              <p className="font-bold text-brand-dark text-sm">Written by the Get Rapid Removals Team</p>
+              <p className="text-brand-muted text-xs mt-0.5">{SITE.legalName} · Co. No. {SITE.companyNumber} · Wolverhampton, West Midlands</p>
+              <p className="text-brand-muted text-xs mt-2 leading-relaxed">
+                This guide is produced by the team at Get Rapid Removals — a registered, fully insured
+                removal company based in Wolverhampton with 5+ years&apos; experience and over 500 completed
+                moves across the West Midlands. All pricing and advice reflects our real-world operational
+                knowledge.
+              </p>
+              <div className="flex flex-wrap items-center gap-3 mt-3">
+                <Link href="/about" className="text-brand-blue text-xs font-semibold hover:underline">About Us</Link>
+                <a href={SITE.social.facebook} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-blue text-xs font-semibold hover:underline">Facebook <ExternalLink className="w-3 h-3" /></a>
+                <a href={SITE.social.companiesHouse} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-brand-blue text-xs font-semibold hover:underline">Companies House <ExternalLink className="w-3 h-3" /></a>
+              </div>
+            </div>
           </div>
         </div>
       </section>

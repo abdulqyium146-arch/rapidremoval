@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CheckCircle, Phone, Star, ArrowRight, MapPin } from "lucide-react";
+import { CheckCircle, Phone, Star, ArrowRight, MapPin, Shield, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
@@ -160,6 +160,38 @@ export function ServicePageContent({ service }: ServicePageContentProps) {
                     <p key={item} className="text-xs text-brand-muted">{item}</p>
                   ))}
                 </div>
+              </CardContent>
+            </Card>
+
+            {/* E-E-A-T trust card */}
+            <Card className="border-brand-green/20 bg-green-50/40">
+              <CardContent className="p-5">
+                <div className="flex items-center gap-2 mb-3">
+                  <Shield className="w-4 h-4 text-brand-green" />
+                  <h3 className="font-bold text-brand-dark text-sm">Verified &amp; Trusted</h3>
+                </div>
+                <ul className="space-y-2">
+                  {[
+                    "Registered Ltd Company · Co. No. " + SITE.companyNumber,
+                    "Goods-in-transit insurance",
+                    "Public liability insurance",
+                    "5.0★ Google rating · 11 verified reviews",
+                    "Serving Wolverhampton since " + SITE.established,
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-2 text-xs text-brand-muted">
+                      <CheckCircle className="w-3.5 h-3.5 text-brand-green mt-0.5 shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href={SITE.social.companiesHouse}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-brand-blue text-xs font-medium hover:underline mt-3"
+                >
+                  Verify on Companies House <ExternalLink className="w-3 h-3" />
+                </a>
               </CardContent>
             </Card>
 

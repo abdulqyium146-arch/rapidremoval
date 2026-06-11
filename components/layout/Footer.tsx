@@ -318,7 +318,18 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container mx-auto px-4 sm:px-6 py-5">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-3 text-slate-500 text-xs">
-            <p>© {currentYear} {SITE.name}. All rights reserved.</p>
+            <div className="flex flex-col sm:flex-row items-center gap-2">
+              <p>© {currentYear} {SITE.legalName}. All rights reserved.</p>
+              <span className="hidden sm:inline">·</span>
+              <a
+                href={SITE.social.companiesHouse}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-slate-300 transition-colors"
+              >
+                Registered in England &amp; Wales · Co. No. {SITE.companyNumber}
+              </a>
+            </div>
             <p className="text-center">
               Serving{" "}
               <Link href="/areas/wolverhampton" className="hover:text-slate-300 transition-colors">Wolverhampton</Link>
