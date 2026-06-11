@@ -202,6 +202,21 @@ Note: Local councils such as Wolverhampton City Council provide a bulky waste co
         answer:
           "Yes. Our house clearance service covers Wolverhampton, Birmingham, Walsall, Dudley, Cannock, and the wider West Midlands. We provide the same professional, licensed clearance service across all areas we cover. Call 07778 298447 for a free quote.",
       },
+      {
+        question: "Can I clear my parents' house before probate?",
+        answer:
+          "Yes. You can clear and sort a property before probate is granted. The legal restriction is on selling estate assets, not on clearing them. You can hire a clearance company, arrange charity donations, and clean the property before probate. Do not sell items of apparent value from the estate before a Grant of Probate is obtained without agreement from all executors and beneficiaries.",
+      },
+      {
+        question: "What is the 6-month rule for probate?",
+        answer:
+          "The 6-month rule relates to Inheritance Tax, not house clearance. Executors must pay any IHT owed within 6 months of the month of death or HMRC charges interest. It has no bearing on when you can start clearing or cleaning a property — clearance can begin at any time after a death.",
+      },
+      {
+        question: "Why is house clearance so expensive?",
+        answer:
+          "House clearance costs reflect professional labour (typically 2–4 operatives), a licensed commercial vehicle, and regulated disposal fees at licensed facilities charged by weight. Compared to multiple skip hires, numerous tip runs, and your own time and labour, a professional clearance is typically equivalent or better value and completed in a single day.",
+      },
     ],
     schema: {
       "@type": "Service",

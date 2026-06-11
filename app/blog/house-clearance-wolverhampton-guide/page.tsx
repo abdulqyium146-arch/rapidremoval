@@ -115,6 +115,62 @@ const faqSchema = {
         text: "Yes. Get Rapid Removals provides house clearance services across Wolverhampton, Birmingham, Walsall, Dudley, Cannock, and the wider West Midlands. Call 07778 298447 for a free quote in any of these areas.",
       },
     },
+    {
+      "@type": "Question",
+      name: "Can I clear my parents' house before probate?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. You can physically clear and sort a property before probate is granted. The legal restriction is on selling assets belonging to the estate, not on clearing or storing them. You can bring in a house clearance company, arrange charity donations, and clean the property before probate. Do not sell items of value from the estate before a Grant of Probate is obtained without agreement from all executors and beneficiaries.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How soon can you clear a house before probate in the UK?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "There is no legal minimum waiting period. You can begin clearing a property immediately after a death in the UK. Many families start within days or weeks. The only restriction is that estate assets should not be sold without a Grant of Probate. Clearing, cleaning, maintaining, and donating items is permitted at any point.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the 6 month rule for probate?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The 6-month rule relates to Inheritance Tax, not house clearance. Executors must pay any Inheritance Tax owed within 6 months of the end of the month of death, or HMRC charges interest. This rule has no bearing on when you can start clearing or cleaning a property.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the 40 day rule after death?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The 40-day rule applies in Scotland under Scots law, where a surviving spouse has Prior Rights that must be asserted within 40 days. In England and Wales — including Wolverhampton and the West Midlands — there is no equivalent 40-day rule. House clearance can begin at any time after a death in England and Wales.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I sell my dad's house before probate is granted?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No. In England and Wales, you cannot legally complete a property sale from an estate until a Grant of Probate (or Letters of Administration if there is no will) is obtained. You can market the property and accept an offer before probate, but legal completion of the sale cannot take place until the grant is in place.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Why is house clearance so expensive?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "House clearance costs reflect professional labour (often 2–4 operatives for a full property), a licensed commercial vehicle, and regulated waste disposal fees at licensed facilities charged by weight. Compared to the alternative — multiple skip hires, numerous tip runs, vehicle hire, and your own physical labour — a professional clearance is usually comparable or better value.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What will house clearance companies take?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A full house clearance covers all furniture (sofas, beds, wardrobes, tables), white goods (fridges, washing machines, cookers), smaller appliances, clothing, bedding, books, crockery, garden furniture, shed contents, loft contents, garage contents, and general household waste. Items not typically included are hazardous materials, clinical waste, or items the customer wishes to keep.",
+      },
+    },
   ],
 };
 
@@ -143,6 +199,50 @@ const CLEARANCE_TYPES = [
     title: "Hoarding Clearance",
     desc: "Specialist clearance of properties affected by hoarding disorder — carried out without judgement, thoroughly, and at a considered pace.",
     cost: "From £300 (assessment required)",
+  },
+];
+
+const WHAT_CLEARANCE_TAKES = [
+  "All furniture — sofas, beds, wardrobes, dining tables, chests of drawers",
+  "White goods — fridges, washing machines, dishwashers, cookers",
+  "Smaller appliances — microwaves, kettles, toasters, TVs, stereos",
+  "Clothing, bedding, curtains, and textiles",
+  "Books, DVDs, CDs, games, and media",
+  "Crockery, cutlery, pots, pans, kitchen contents",
+  "Garden furniture, tools, shed contents, plant pots",
+  "Loft contents — boxes, old furniture, luggage, seasonal items",
+  "Garage contents — tools, bikes, paint, general clutter",
+  "General household waste and rubbish",
+];
+
+const PROBATE_QA = [
+  {
+    q: "Can I clear my parents' house before probate is granted?",
+    a: "Yes — you can physically clear and sort the property before probate is granted. The legal restriction is on selling assets belonging to the estate, not on clearing or storing them. You can sort belongings, arrange charity donations, and bring in a clearance company before probate is in place. You should not sell items of value from the estate before probate without agreement from all executors and beneficiaries.",
+  },
+  {
+    q: "How soon can you start clearing a house after a death in the UK?",
+    a: "There is no legal minimum waiting period before you can begin clearing a property after a death. You can start immediately — clearing, cleaning, and sorting belongings. Many families begin within days or weeks to protect the property and prepare it for sale. The only restriction is that you should not sell estate assets before a Grant of Probate (or Letters of Administration) is obtained.",
+  },
+  {
+    q: "Can you clean a house before probate?",
+    a: "Yes. Cleaning, maintaining, and clearing a property before probate is perfectly legal. In fact, keeping the property clean and secure is often required by the estate's building insurer to keep the policy valid on an unoccupied property. House clearance — including hiring a professional company — is allowed before probate is granted.",
+  },
+  {
+    q: "What is the 6 month rule for probate?",
+    a: "The 6-month rule relates to Inheritance Tax (IHT), not house clearance. Executors must pay any Inheritance Tax owed within 6 months of the end of the month in which the person died, or HMRC will charge interest. This rule has no bearing on when you can start clearing or cleaning the property.",
+  },
+  {
+    q: "What is the 40 day rule after death?",
+    a: "The 40-day rule applies in Scotland under Scots law (Executry). In Scotland, a surviving spouse or civil partner has Prior Rights and must assert certain legal claims within 40 days of the death. In England and Wales, there is no equivalent 40-day rule. House clearance in England and Wales — including Wolverhampton and the West Midlands — is not subject to any 40-day restriction.",
+  },
+  {
+    q: "Can I sell my dad's house before probate is granted?",
+    a: "No. In England and Wales, you cannot exchange contracts or legally complete a sale of a property belonging to an estate until a Grant of Probate (or Letters of Administration if there is no will) is obtained. You can market the property and accept an offer before probate, but legal completion of the sale cannot happen until the grant is in place.",
+  },
+  {
+    q: "What are the most common inheritance mistakes when clearing a house?",
+    a: "The most common mistakes are: selling property or assets before probate is granted; failing to value items correctly for Inheritance Tax; removing items without agreement from all beneficiaries; hiring an unlicensed clearance company (leaving the estate liable for fly-tipping); and missing assets — cash, jewellery, collectibles — that should be declared. Always use a licensed waste carrier and keep records of all items donated or disposed of.",
   },
 ];
 
@@ -401,6 +501,57 @@ export default function HouseClearanceWolverhamptonGuidePage() {
             , and the wider West Midlands.
           </p>
 
+          {/* Section 5b: Probate */}
+          <h2 className="text-2xl font-extrabold text-brand-dark mb-2">
+            House Clearance and Probate: What You Need to Know
+          </h2>
+          <p className="text-brand-muted leading-relaxed mb-6">
+            If you are clearing a property after a bereavement, you may have questions about probate
+            — what you can and cannot do legally before a Grant of Probate is obtained. Here are the
+            key rules for England and Wales.
+          </p>
+          <div className="space-y-4 mb-10">
+            {PROBATE_QA.map((item) => (
+              <div key={item.q} className="bg-brand-neutral rounded-xl p-5 border border-slate-100">
+                <h3 className="font-bold text-brand-dark text-sm mb-2">{item.q}</h3>
+                <p className="text-brand-muted text-sm leading-relaxed">{item.a}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Section 5c: What clearance companies take */}
+          <h2 className="text-2xl font-extrabold text-brand-dark mb-4">
+            What Will House Clearance Companies Take?
+          </h2>
+          <p className="text-brand-muted leading-relaxed mb-5">
+            A full house clearance covers the complete contents of a property. Here is what a
+            professional clearance company will remove:
+          </p>
+          <ul className="space-y-2 mb-6">
+            {WHAT_CLEARANCE_TAKES.map((item) => (
+              <li key={item} className="flex items-start gap-3">
+                <CheckCircle className="w-4 h-4 text-brand-green shrink-0 mt-0.5" />
+                <span className="text-brand-muted text-sm">{item}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="text-brand-muted leading-relaxed mb-4">
+            Items that are <strong>not</strong> typically taken on a standard clearance include
+            hazardous materials (asbestos, chemicals, paint tins), clinical waste, and items the
+            customer wishes to keep. If in doubt, mention any unusual items when requesting a quote.
+          </p>
+          <div className="bg-blue-50 rounded-2xl p-5 border border-brand-blue/20 mb-10">
+            <p className="font-bold text-brand-dark text-sm mb-1">Do you pay house clearance companies, or do they pay you?</p>
+            <p className="text-brand-muted text-sm leading-relaxed">
+              Usually you pay them — house clearance involves significant labour and licensed disposal
+              costs. However, if a property contains high-value furniture, antiques, working appliances,
+              or collectibles, a clearance company may reduce their quote — or in rare cases offer a
+              free clearance — when the resale value of items offsets disposal costs. Get Rapid Removals
+              always assesses item value before quoting and will tell you honestly whether anything can
+              reduce your cost.
+            </p>
+          </div>
+
           {/* Section 6: End of tenancy */}
           <h2 className="text-2xl font-extrabold text-brand-dark mb-4">
             End of Tenancy Clearances in Wolverhampton
@@ -471,11 +622,27 @@ export default function HouseClearanceWolverhamptonGuidePage() {
             {[
               {
                 q: "How much does a house clearance cost in Wolverhampton?",
-                a: "A house clearance in Wolverhampton typically costs £150–£800+. A single room starts from £150. A full 3-bedroom house clearance costs £400–£650. The final price depends on volume, access, and the specific scope. Get Rapid Removals provides free, no-obligation fixed-price quotes.",
+                a: "A house clearance in Wolverhampton typically costs £150–£800+. A single room starts from £150. A full 3-bedroom house clearance costs £400–£650. A 4-bedroom house clearance costs £550–£800. The final price depends on volume, access, and scope. Get Rapid Removals provides free, no-obligation fixed-price quotes.",
+              },
+              {
+                q: "Why is house clearance so expensive?",
+                a: "House clearance costs reflect labour (often 2–4 operatives for a full day), a licensed commercial vehicle, and waste disposal fees at licensed facilities — which are regulated and charged by weight. Unlike a skip, a clearance company also sorts items for recycling and charity, which takes additional time. The cost is typically comparable to hiring a skip multiple times plus your own labour.",
+              },
+              {
+                q: "Are house clearances worth it?",
+                a: "Yes, for most people. A professional clearance saves significant time and physical effort — clearing a 3-bedroom house alone could take weeks. A clearance company completes it in a day. When you factor in skip costs, multiple tip runs, vehicle hire, and your own time, a professional clearance is usually the better value option.",
               },
               {
                 q: "What is included in a house clearance?",
                 a: "A full house clearance includes the removal of all furniture, appliances, clothing, household items, and general waste from a property — including garages, lofts, sheds, and gardens. The property is left cleared, clean, and ready.",
+              },
+              {
+                q: "Can I clear a house before probate is granted?",
+                a: "Yes. You can physically clear and sort a property before probate is granted. The restriction is on selling estate assets, not clearing them. You can arrange a house clearance, donate items to charity, and clean the property before probate. You should not sell items of apparent value without agreement from all executors and beneficiaries.",
+              },
+              {
+                q: "What is the 6 month rule for probate?",
+                a: "The 6-month rule relates to Inheritance Tax — executors must pay IHT within 6 months of the month of death or HMRC charges interest. It has nothing to do with when you can clear or clean the property. House clearance can begin as soon as you are ready.",
               },
               {
                 q: "How do house clearance companies dispose of waste in Wolverhampton?",
@@ -484,10 +651,6 @@ export default function HouseClearanceWolverhamptonGuidePage() {
               {
                 q: "How quickly can a house clearance be arranged in Wolverhampton?",
                 a: "Get Rapid Removals can often arrange clearances within 1–3 working days for urgent situations. Planned clearances can be booked as far in advance as needed. Call 07778 298447 to check availability.",
-              },
-              {
-                q: "Do house clearance companies buy items?",
-                a: "Most professional companies — including Get Rapid Removals — do not purchase items. However, we always notify customers of any items of apparent value before disposing of them. We can suggest local auction services and charity collection contacts.",
               },
             ].map((item) => (
               <div key={item.q} className="bg-brand-neutral rounded-xl p-5 border border-slate-100">
