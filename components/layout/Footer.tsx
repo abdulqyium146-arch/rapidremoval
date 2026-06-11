@@ -1,37 +1,96 @@
 import Link from "next/link";
-import { Phone, Mail, MapPin, Clock, Truck, Star, Shield, CheckCircle } from "lucide-react";
-import { SITE, SERVICE_AREAS } from "@/lib/constants";
+import { Phone, Mail, MapPin, Clock, Truck, Star, Shield, CheckCircle, Award } from "lucide-react";
+import { SITE } from "@/lib/constants";
 
-const SERVICE_LINKS = [
+// Cluster 1: Moving Services (hub → spoke PageRank flow)
+const MOVING_SERVICES = [
   { label: "House Removals", href: "/services/house-removals" },
-  { label: "House Clearance", href: "/services/house-clearance" },
   { label: "Man & Van", href: "/services/man-and-van" },
-  { label: "Office Removals", href: "/services/office-removals" },
   { label: "Furniture Removals", href: "/services/furniture-removals" },
+  { label: "Office Removals", href: "/services/office-removals" },
   { label: "Packing Services", href: "/services/packing-services" },
-  { label: "Student Moves", href: "/services/student-moves" },
-  { label: "Same Day Removals", href: "/services/same-day-removals" },
-  { label: "Emergency Removals", href: "/services/emergency-removals" },
+];
+
+// Cluster 2: Clearance & Specialist Services
+const CLEARANCE_SERVICES = [
+  { label: "House Clearance", href: "/services/house-clearance" },
   { label: "End of Tenancy", href: "/services/end-of-tenancy-clearance" },
   { label: "Commercial Moves", href: "/services/commercial-moves" },
+  { label: "Same Day Removals", href: "/services/same-day-removals" },
+  { label: "Emergency Removals", href: "/services/emergency-removals" },
+  { label: "Student Moves", href: "/services/student-moves" },
 ];
 
-const QUICK_LINKS = [
-  { label: "About Us", href: "/about" },
-  { label: "Get a Quote", href: "/quote" },
-  { label: "Contact", href: "/contact" },
-  { label: "Service Areas", href: "/areas" },
+// Cluster 3: Geographic — Local (Wolverhampton core)
+const LOCAL_AREAS = [
+  { label: "Wolverhampton ★", href: "/areas/wolverhampton" },
+  { label: "Whitmore Reans", href: "/areas/whitmore-reans" },
+  { label: "Bilston", href: "/areas/bilston" },
+  { label: "Wednesfield", href: "/areas/wednesfield" },
+  { label: "Tettenhall", href: "/areas/tettenhall" },
+  { label: "Codsall", href: "/areas/codsall" },
+];
+
+// Cluster 3: Geographic — Regional (West Midlands & beyond)
+const REGIONAL_AREAS = [
+  { label: "Dudley", href: "/areas/dudley" },
+  { label: "Walsall", href: "/areas/walsall" },
+  { label: "Cannock", href: "/areas/cannock" },
+  { label: "West Bromwich", href: "/areas/west-bromwich" },
+  { label: "Birmingham", href: "/areas/birmingham" },
+  { label: "Stafford", href: "/areas/stafford" },
+];
+
+// Cluster 4: Resource hub
+const RESOURCE_LINKS = [
   { label: "Blog & Guides", href: "/blog" },
   { label: "FAQs", href: "/faq" },
-  { label: "Sitemap", href: "/sitemap-html" },
+  { label: "About Us", href: "/about" },
+  { label: "Contact Us", href: "/contact" },
+  { label: "Get a Quote", href: "/quote" },
 ];
+
+const LEGAL_LINKS = [
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Terms & Conditions", href: "/terms" },
+  { label: "HTML Sitemap", href: "/sitemap-html" },
+];
+
+function FooterHeading({ children }: { children: React.ReactNode }) {
+  return (
+    <h3 className="font-bold text-white mb-4 text-xs uppercase tracking-widest">
+      {children}
+    </h3>
+  );
+}
+
+function FooterSubHeading({ children }: { children: React.ReactNode }) {
+  return (
+    <p className="font-semibold text-slate-300 text-xs uppercase tracking-wider mb-2 mt-5 first:mt-0">
+      {children}
+    </p>
+  );
+}
+
+function FooterLink({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <li>
+      <Link
+        href={href}
+        className="text-slate-400 hover:text-white text-sm transition-colors duration-150 hover:translate-x-0.5 inline-block"
+      >
+        {children}
+      </Link>
+    </li>
+  );
+}
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-brand-dark text-white" aria-label="Site footer">
-      {/* Top CTA bar */}
+      {/* CTA bar */}
       <div className="bg-brand-blue">
         <div className="container mx-auto px-4 sm:px-6 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -60,11 +119,12 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Main footer */}
+      {/* Main footer — 5-column topical map */}
       <div className="container mx-auto px-4 sm:px-6 py-14">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-          {/* Brand column */}
-          <div className="lg:col-span-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10">
+
+          {/* Column 1: Brand + Trust (spans 2 of 6) */}
+          <div className="sm:col-span-2 lg:col-span-2">
             <Link href="/" className="flex items-center gap-2.5 mb-5">
               <div className="w-9 h-9 bg-brand-blue rounded-xl flex items-center justify-center shadow-md">
                 <Truck className="w-5 h-5 text-white" />
@@ -74,16 +134,19 @@ export function Footer() {
                 <span className="font-bold text-base text-brand-sky leading-tight">Removals</span>
               </div>
             </Link>
+
             <p className="text-slate-400 text-sm leading-relaxed mb-5">
               Wolverhampton&apos;s trusted local removals and clearance company. Professional,
-              fully insured, and always on time.
+              fully insured, and always on time. Serving the West Midlands since {SITE.established}.
             </p>
+
             {/* Trust badges */}
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-7">
               {[
-                { icon: Star, label: "5.0★ Rated" },
+                { icon: Star, label: "5.0★ Google Rated" },
                 { icon: Shield, label: "Fully Insured" },
                 { icon: CheckCircle, label: "Free Quotes" },
+                { icon: Award, label: "Licensed Carrier" },
               ].map(({ icon: Icon, label }) => (
                 <div
                   key={label}
@@ -94,77 +157,16 @@ export function Footer() {
                 </div>
               ))}
             </div>
-          </div>
 
-          {/* Services */}
-          <div>
-            <h3 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">
-              Services
-            </h3>
-            <ul className="space-y-2">
-              {SERVICE_LINKS.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-slate-400 hover:text-white text-sm transition-colors duration-150 hover:translate-x-0.5 inline-block"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Areas */}
-          <div>
-            <h3 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">
-              Service Areas
-            </h3>
-            <ul className="space-y-2">
-              <li>
-                <Link
-                  href="/areas/wolverhampton"
-                  className="text-slate-400 hover:text-white text-sm transition-colors duration-150 font-medium"
-                >
-                  Wolverhampton ★
-                </Link>
-              </li>
-              {SERVICE_AREAS.slice(0, 8).map((area) => (
-                <li key={area.slug}>
-                  <Link
-                    href={`/areas/${area.slug}`}
-                    className="text-slate-400 hover:text-white text-sm transition-colors duration-150 hover:translate-x-0.5 inline-block"
-                  >
-                    {area.name}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link
-                  href="/areas"
-                  className="text-brand-sky hover:text-blue-300 text-sm transition-colors duration-150 font-medium"
-                >
-                  View all areas →
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact & Quick links */}
-          <div>
-            <h3 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">
-              Contact
-            </h3>
-            <ul className="space-y-3 mb-6">
+            {/* Contact details */}
+            <ul className="space-y-3">
               <li>
                 <a
                   href={`tel:${SITE.phone}`}
                   className="flex items-start gap-3 text-slate-400 hover:text-white transition-colors group"
                 >
                   <Phone className="w-4 h-4 mt-0.5 text-brand-sky shrink-0" />
-                  <span className="text-sm group-hover:text-white">
-                    {SITE.phoneDisplay}
-                  </span>
+                  <span className="text-sm">{SITE.phoneDisplay}</span>
                 </a>
               </li>
               <li>
@@ -173,7 +175,7 @@ export function Footer() {
                   className="flex items-start gap-3 text-slate-400 hover:text-white transition-colors group"
                 >
                   <Mail className="w-4 h-4 mt-0.5 text-brand-sky shrink-0" />
-                  <span className="text-sm break-all group-hover:text-white">{SITE.email}</span>
+                  <span className="text-sm break-all">{SITE.email}</span>
                 </a>
               </li>
               <li>
@@ -195,43 +197,125 @@ export function Footer() {
                 </div>
               </li>
             </ul>
+          </div>
 
-            <h3 className="font-bold text-white mb-3 text-sm uppercase tracking-wider">
-              Quick Links
-            </h3>
+          {/* Column 2: Moving Services cluster */}
+          <div>
+            <FooterHeading>Moving Services</FooterHeading>
+            <ul className="space-y-2.5">
+              {MOVING_SERVICES.map((link) => (
+                <FooterLink key={link.href} href={link.href}>
+                  {link.label}
+                </FooterLink>
+              ))}
+              <li className="pt-1">
+                <Link
+                  href="/services"
+                  className="text-brand-sky hover:text-blue-300 text-sm font-medium transition-colors"
+                >
+                  All Services →
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 3: Clearance & Specialist cluster */}
+          <div>
+            <FooterHeading>Clearance & Specialist</FooterHeading>
+            <ul className="space-y-2.5">
+              {CLEARANCE_SERVICES.map((link) => (
+                <FooterLink key={link.href} href={link.href}>
+                  {link.label}
+                </FooterLink>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 4: Service Areas — local + regional sub-clusters */}
+          <div>
+            <FooterHeading>Service Areas</FooterHeading>
+
+            <FooterSubHeading>Wolverhampton &amp; Local</FooterSubHeading>
+            <ul className="space-y-2 mb-0">
+              {LOCAL_AREAS.map((area) => (
+                <FooterLink key={area.href} href={area.href}>
+                  {area.label}
+                </FooterLink>
+              ))}
+            </ul>
+
+            <FooterSubHeading>West Midlands &amp; Beyond</FooterSubHeading>
             <ul className="space-y-2">
-              {QUICK_LINKS.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-slate-400 hover:text-white text-sm transition-colors duration-150"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
+              {REGIONAL_AREAS.map((area) => (
+                <FooterLink key={area.href} href={area.href}>
+                  {area.label}
+                </FooterLink>
+              ))}
+              <li className="pt-1">
+                <Link
+                  href="/areas"
+                  className="text-brand-sky hover:text-blue-300 text-sm font-medium transition-colors"
+                >
+                  All Areas →
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 5: Resources & Legal cluster */}
+          <div>
+            <FooterHeading>Resources</FooterHeading>
+            <ul className="space-y-2.5 mb-6">
+              {RESOURCE_LINKS.map((link) => (
+                <FooterLink key={link.href} href={link.href}>
+                  {link.label}
+                </FooterLink>
+              ))}
+            </ul>
+
+            <FooterHeading>Legal</FooterHeading>
+            <ul className="space-y-2.5">
+              {LEGAL_LINKS.map((link) => (
+                <FooterLink key={link.href} href={link.href}>
+                  {link.label}
+                </FooterLink>
               ))}
             </ul>
           </div>
         </div>
       </div>
 
-      {/* Bottom bar */}
+      {/* Bottom bar — entity/coverage signal */}
       <div className="border-t border-white/10">
-        <div className="container mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-500 text-xs">
-          <p>
-            © {currentYear} {SITE.name}. All rights reserved.
-          </p>
-          <div className="flex items-center gap-4">
-            <Link href="/privacy-policy" className="hover:text-slate-300 transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="hover:text-slate-300 transition-colors">
-              Terms
-            </Link>
-            <span>|</span>
-            <span>
-              Serving Wolverhampton & West Midlands since {SITE.established}
-            </span>
+        <div className="container mx-auto px-4 sm:px-6 py-5">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-3 text-slate-500 text-xs">
+            <p>© {currentYear} {SITE.name}. All rights reserved.</p>
+            <p className="text-center">
+              Serving{" "}
+              <Link href="/areas/wolverhampton" className="hover:text-slate-300 transition-colors">Wolverhampton</Link>
+              {" · "}
+              <Link href="/areas/bilston" className="hover:text-slate-300 transition-colors">Bilston</Link>
+              {" · "}
+              <Link href="/areas/wednesfield" className="hover:text-slate-300 transition-colors">Wednesfield</Link>
+              {" · "}
+              <Link href="/areas/dudley" className="hover:text-slate-300 transition-colors">Dudley</Link>
+              {" · "}
+              <Link href="/areas/walsall" className="hover:text-slate-300 transition-colors">Walsall</Link>
+              {" · "}
+              <Link href="/areas/cannock" className="hover:text-slate-300 transition-colors">Cannock</Link>
+              {" · "}
+              <Link href="/areas/west-bromwich" className="hover:text-slate-300 transition-colors">West Bromwich</Link>
+              {" · "}
+              <Link href="/areas/birmingham" className="hover:text-slate-300 transition-colors">Birmingham</Link>
+              {" · "}
+              <Link href="/areas/stafford" className="hover:text-slate-300 transition-colors">Stafford</Link>
+              {" since "}{SITE.established}
+            </p>
+            <div className="flex items-center gap-4">
+              <Link href="/privacy-policy" className="hover:text-slate-300 transition-colors">Privacy</Link>
+              <Link href="/terms" className="hover:text-slate-300 transition-colors">Terms</Link>
+              <Link href="/sitemap-html" className="hover:text-slate-300 transition-colors">Sitemap</Link>
+            </div>
           </div>
         </div>
       </div>
