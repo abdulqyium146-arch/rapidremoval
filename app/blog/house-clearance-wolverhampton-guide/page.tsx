@@ -27,7 +27,7 @@ const articleSchema = {
   description:
     "A complete guide to arranging a house clearance in Wolverhampton — including 2025 costs, what's included, how waste is disposed of, and estate clearance advice.",
   datePublished: "2025-06-01",
-  dateModified: "2025-06-01",
+  dateModified: "2026-06-11",
   author: {
     "@type": "Organization",
     "@id": `${SITE.url}/#business`,

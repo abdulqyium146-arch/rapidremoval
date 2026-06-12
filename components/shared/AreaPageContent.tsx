@@ -22,6 +22,8 @@ const SERVICE_LINKS = [
   { label: "Student Moves", href: "/services/student-moves" },
   { label: "Commercial Moves", href: "/services/commercial-moves" },
   { label: "End of Tenancy", href: "/services/end-of-tenancy-clearance" },
+  { label: "Long Distance Removals", href: "/services/long-distance-removals" },
+  { label: "Senior Moves", href: "/services/senior-moves" },
 ];
 
 interface AreaPageContentProps {

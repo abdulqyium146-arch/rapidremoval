@@ -299,6 +299,80 @@ West Bromwich to Wolverhampton is one of our most popular routes, with many fami
     ],
   },
   {
+    slug: "whitmore-reans",
+    name: "Whitmore Reans",
+    postcode: "WV6",
+    county: "West Midlands",
+    distance: "0 miles",
+    description: "Get Rapid Removals is based in Whitmore Reans — our local knowledge here is unmatched.",
+    longDescription: `Whitmore Reans is home to Get Rapid Removals. We are a Whitmore Reans business, based in the heart of WV6, and we've been serving this community since 2019.
+
+Our local knowledge of Whitmore Reans is unmatched. We know every street — from Dunstall Road and Stafford Road to the residential streets off Tettenhall Road. We understand the parking conditions, property access challenges, and the full range of housing types across this part of Wolverhampton, from Victorian terraces to post-war semis and modern flats.
+
+Whitmore Reans sits in the WV6 postcode, bordering Tettenhall, Compton, and Penn. It's a busy residential area with a strong sense of community — and a great many families who've trusted us to move them locally and across the West Midlands.
+
+Whether you're moving within Whitmore Reans, relocating to another part of Wolverhampton, or moving further across the West Midlands, Get Rapid Removals offers a professional, fully insured, and competitively priced service. Free quotes available same day.`,
+    metaTitle: "Removals Whitmore Reans WV6 | Get Rapid Removals | Local Experts",
+    metaDescription:
+      "Get Rapid Removals is based in Whitmore Reans, WV6. Local house removals, clearances & man and van. 5-star rated, fully insured. Free quote: 07778 298447.",
+    heroHeadline: "House Removals in Whitmore Reans, WV6",
+    heroSubheadline:
+      "Our home base. Local experts serving Whitmore Reans and all of WV6. Free quotes, same-day available.",
+    landmarks: ["Dunstall Park", "Stafford Road", "Tettenhall Road", "Whitmore Reans Park", "Compton Road"],
+    nearbyAreas: ["Wolverhampton", "Tettenhall", "Codsall", "Bilston"],
+    services: [
+      "House Removals",
+      "House Clearance",
+      "Man & Van",
+      "Furniture Removals",
+      "Same Day Removals",
+    ],
+    keywords: [
+      "removals Whitmore Reans",
+      "house removals Whitmore Reans",
+      "removal company Whitmore Reans",
+      "man and van Whitmore Reans",
+      "house clearance Whitmore Reans WV6",
+    ],
+  },
+  {
+    slug: "codsall",
+    name: "Codsall",
+    postcode: "WV8",
+    county: "Staffordshire",
+    distance: "7 miles",
+    description: "Professional removals and clearance in Codsall, WV8 — just 7 miles from our Wolverhampton base.",
+    longDescription: `Get Rapid Removals provides professional house removals, house clearance, and man and van services across Codsall and the surrounding WV8 postcode area. Located just 7 miles from our Whitmore Reans base, Codsall is one of our most regularly served areas.
+
+Codsall is an affluent village on the western edge of Wolverhampton, popular with families for its excellent schools, green spaces, and quiet residential streets. The area includes Codsall village centre, Bilbrook, Birches, and Oaken — as well as the larger detached properties along Wood Road and Lane Green Road.
+
+Our team regularly handles high-quality house removals in Codsall, where properties tend to be larger and often contain more valuable furniture and antiques. We use professional protective wrapping on all items and take the additional care that Codsall's premium properties require.
+
+Codsall is also popular with people relocating from Wolverhampton or commuting into the city, and we're frequently called for moves between Codsall and Tettenhall, Wolverhampton city centre, and further afield.`,
+    metaTitle: "Removals Codsall WV8 | Get Rapid Removals | Free Quote",
+    metaDescription:
+      "Professional house removals and clearance in Codsall, WV8. 7 miles from Wolverhampton. 5-star rated service. Free quote: 07778 298447.",
+    heroHeadline: "House Removals in Codsall, WV8",
+    heroSubheadline:
+      "Professional removal service for Codsall and Bilbrook. Just 7 miles from our Wolverhampton base.",
+    landmarks: ["Codsall Village Centre", "Bilbrook", "Oaken", "Birches First School", "Lane Green"],
+    nearbyAreas: ["Wolverhampton", "Tettenhall", "Whitmore Reans", "Stafford"],
+    services: [
+      "House Removals",
+      "Packing Services",
+      "Furniture Removals",
+      "House Clearance",
+      "Man & Van",
+    ],
+    keywords: [
+      "removals Codsall",
+      "house removals Codsall",
+      "removal company Codsall WV8",
+      "man and van Codsall",
+      "house clearance Codsall",
+    ],
+  },
+  {
     slug: "stafford",
     name: "Stafford",
     postcode: "ST16–ST21",
@@ -317,7 +391,7 @@ Our Stafford service covers the full ST16–ST21 postcode area including Staffor
     heroSubheadline:
       "Professional removal services for Stafford and Staffordshire. Free quotes available.",
     landmarks: ["Stafford Town Centre", "Stafford Castle", "Shugborough Estate", "Staffordshire County Showground"],
-    nearbyAreas: ["Wolverhampton", "Cannock", "Stone", "Gnosall"],
+    nearbyAreas: ["Wolverhampton", "Cannock", "Codsall"],
     services: ["House Removals", "House Clearance", "Man & Van", "Long Distance Moves"],
     keywords: [
       "removals Stafford",
