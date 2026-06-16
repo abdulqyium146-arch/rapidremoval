@@ -93,7 +93,10 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "8wF_eexPI_YiE5ZafXEnotKqYPqFCvOXJdo-mVM7W3g",
+    google: [
+      "8wF_eexPI_YiE5ZafXEnotKqYPqFCvOXJdo-mVM7W3g",
+      "EBgfaOueWTj98JdKlEiCymp4jTkECcekO6dHX8qSPnY",
+    ],
   },
   category: "Business",
   icons: {
