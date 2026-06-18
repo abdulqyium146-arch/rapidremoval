@@ -9,7 +9,7 @@ import { PRIMARY_AREAS, SITE } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Removal Service Areas | Wolverhampton & West Midlands | Get Rapid Removals",
   description:
-    "Get Rapid Removals covers Wolverhampton, Bilston, Wednesfield, Dudley, Walsall, Cannock, Birmingham & more. Professional removals across the West Midlands. Free quotes: 07778 298447.",
+    "Get Rapid Removals covers Wolverhampton, Bilston, Wednesfield, Dudley, Walsall, Cannock, Birmingham & more. Professional removals across the West Midlands. Free quotes: 07438 447286.",
   alternates: {
     canonical: `${SITE.url}/areas`,
   },
@@ -94,10 +94,10 @@ export default function AreasPage() {
               specific location.
             </p>
             <a
-              href="tel:+447778298447"
+              href="tel:+447438447286"
               className="inline-flex items-center gap-2 bg-brand-blue text-white font-semibold px-5 py-2.5 rounded-xl hover:bg-brand-blue-light transition-colors text-sm"
             >
-              Call 07778 298447
+              Call 07438 447286
             </a>
           </div>
         </div>

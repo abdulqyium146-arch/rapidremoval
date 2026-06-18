@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.name}`,
   },
   description:
-    "Get Rapid Removals — Wolverhampton's trusted local removals company. Professional house removals, house clearance, man and van, office removals & packing services across Wolverhampton & the West Midlands. Fully insured, free quotes, same-day available. Call 07778 298447.",
+    "Get Rapid Removals — Wolverhampton's trusted local removals company. Professional house removals, house clearance, man and van, office removals & packing services across Wolverhampton & the West Midlands. Fully insured, free quotes, same-day available. Call 07438 447286.",
   keywords: [
     "house removals Wolverhampton",
     "removal company Wolverhampton",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.name} | Wolverhampton's Most Trusted Removals Company`,
     description:
-      "Professional house removals, house clearance & man and van services in Wolverhampton. Fully insured, 5-star rated, free quotes. Call 07778 298447.",
+      "Professional house removals, house clearance & man and van services in Wolverhampton. Fully insured, 5-star rated, free quotes. Call 07438 447286.",
     images: [
       {
         url: `${SITE.url}/og-image.webp`,

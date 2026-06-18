@@ -17,14 +17,14 @@ import { FAQS, REVIEWS, SITE } from "@/lib/constants";
 export const metadata: Metadata = {
   title: `${SITE.name} | House Removals Wolverhampton | Man & Van | Free Quote`,
   description:
-    "Get Rapid Removals — Wolverhampton's most trusted removal company. House removals, house clearance, man and van, office removals & packing. Fully insured, 5.0★ Google rated. Free quote: 07778 298447.",
+    "Get Rapid Removals — Wolverhampton's most trusted removal company. House removals, house clearance, man and van, office removals & packing. Fully insured, 5.0★ Google rated. Free quote: 07438 447286.",
   alternates: {
     canonical: SITE.url,
   },
   openGraph: {
     title: `${SITE.name} | Wolverhampton's #1 Removal Company`,
     description:
-      "Professional house removals, house clearance & man and van across Wolverhampton & West Midlands. Fully insured · Free quotes · Same day available. Call 07778 298447.",
+      "Professional house removals, house clearance & man and van across Wolverhampton & West Midlands. Fully insured · Free quotes · Same day available. Call 07438 447286.",
     url: SITE.url,
   },
 };
@@ -46,7 +46,7 @@ export default function HomePage() {
           removals, emergency removals, end of tenancy clearance, and commercial moving services
           across Wolverhampton (WV1–WV14), Bilston, Wednesfield, Tettenhall, Dudley, Walsall,
           Cannock, West Bromwich, Stafford, Birmingham, and the wider West Midlands. We are fully
-          insured, 5-star Google rated, and offer free no-obligation quotes. Phone: 07778 298447.
+          insured, 5-star Google rated, and offer free no-obligation quotes. Phone: 07438 447286.
         </p>
       </div>
 

@@ -59,7 +59,7 @@ export function FAQSection() {
                 <Link href="/quote">Get Free Quote</Link>
               </Button>
               <Button asChild variant="outline" className="w-full">
-                <a href="tel:+447778298447">Call 07778 298447</a>
+                <a href="tel:+447438447286">Call 07438 447286</a>
               </Button>
             </motion.div>
           </div>
@@ -95,8 +95,8 @@ export function FAQSection() {
               <p className="text-brand-muted text-sm leading-relaxed">
                 <strong className="text-brand-dark">Still have questions?</strong> Our team is
                 available 7 days a week to answer any questions about your move. Call us on{" "}
-                <a href="tel:+447778298447" className="text-brand-blue font-semibold hover:underline">
-                  07778 298447
+                <a href="tel:+447438447286" className="text-brand-blue font-semibold hover:underline">
+                  07438 447286
                 </a>{" "}
                 or{" "}
                 <Link href="/contact" className="text-brand-blue font-semibold hover:underline">

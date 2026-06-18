@@ -11,7 +11,7 @@ const STEPS = [
     icon: MessageSquare,
     title: "Request Your Free Quote",
     description:
-      "Call us on 07778 298447 or complete our quick online form. We provide accurate, no-obligation quotes within minutes — no hidden fees, ever.",
+      "Call us on 07438 447286 or complete our quick online form. We provide accurate, no-obligation quotes within minutes — no hidden fees, ever.",
     detail: "Phone, WhatsApp, or form — whichever suits you.",
   },
   {

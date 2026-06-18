@@ -13,7 +13,7 @@ import { SERVICES } from "@/lib/services-data";
 export const metadata: Metadata = {
   title: "Removal Services Wolverhampton | All Services | Get Rapid Removals",
   description:
-    "Complete removal and clearance services in Wolverhampton — house removals, house clearance, man and van, office removals, packing, same-day and more. Free quotes: 07778 298447.",
+    "Complete removal and clearance services in Wolverhampton — house removals, house clearance, man and van, office removals, packing, same-day and more. Free quotes: 07438 447286.",
   alternates: {
     canonical: `${SITE.url}/services`,
   },

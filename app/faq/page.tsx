@@ -113,7 +113,7 @@ const FAQ_SECTIONS: FAQSection[] = [
       {
         question: "Can I get a free quote online?",
         snippet:
-          "Yes. You can request a free, no-obligation quote online by completing our short form with your move details — address, property size, preferred date, and any extras. We respond to all online quote requests within a few hours during business hours. For immediate availability, call 07778 298447.",
+          "Yes. You can request a free, no-obligation quote online by completing our short form with your move details — address, property size, preferred date, and any extras. We respond to all online quote requests within a few hours during business hours. For immediate availability, call 07438 447286.",
         linkLabel: "Request a free online quote",
         linkHref: "/quote",
       },
@@ -145,14 +145,14 @@ const FAQ_SECTIONS: FAQSection[] = [
       {
         question: "Do you offer same-day removals in Wolverhampton?",
         snippet:
-          "Yes. Same-day removals are available across Wolverhampton and the West Midlands, subject to availability. Call 07778 298447 as early as possible — the earlier you call, the more likely we can accommodate you. We keep capacity reserved specifically for urgent and same-day bookings.",
+          "Yes. Same-day removals are available across Wolverhampton and the West Midlands, subject to availability. Call 07438 447286 as early as possible — the earlier you call, the more likely we can accommodate you. We keep capacity reserved specifically for urgent and same-day bookings.",
         linkLabel: "Same-day removal service",
         linkHref: "/services/same-day-removals",
       },
       {
         question: "Do you offer emergency removals?",
         snippet:
-          "Yes. Get Rapid Removals provides emergency removal services 7 days a week across Wolverhampton and the West Midlands. For all urgent situations — last-minute completions, crisis moves, domestic emergencies — call 07778 298447 directly rather than using the online form.",
+          "Yes. Get Rapid Removals provides emergency removal services 7 days a week across Wolverhampton and the West Midlands. For all urgent situations — last-minute completions, crisis moves, domestic emergencies — call 07438 447286 directly rather than using the online form.",
         linkLabel: "Emergency removal service",
         linkHref: "/services/emergency-removals",
       },
@@ -216,7 +216,7 @@ const FAQ_SECTIONS: FAQSection[] = [
       {
         question: "What if my removal company has let me down and I need urgent help?",
         snippet:
-          "Call us immediately on 07778 298447. Being let down by another removal company on or near moving day is one of the most common emergency situations we handle. We will assess our current schedule and do everything possible to step in at short notice.",
+          "Call us immediately on 07438 447286. Being let down by another removal company on or near moving day is one of the most common emergency situations we handle. We will assess our current schedule and do everything possible to step in at short notice.",
       },
     ],
   },
@@ -324,7 +324,7 @@ const FAQ_SECTIONS: FAQSection[] = [
         snippet:
           "Any damage claims must be reported within 24 hours of delivery, with photographic evidence where possible. We assess the damage and handle the matter through our goods-in-transit insurance policy. We take exceptional care on every move — professional furniture blankets and specialist protection are used on all items as standard.",
         detail: [
-          "To report damage, contact us at info@getrapidremovals.co.uk or call 07778 298447 on the day of delivery.",
+          "To report damage, contact us at info@getrapidremovals.co.uk or call 07438 447286 on the day of delivery.",
         ],
       },
       {
@@ -380,7 +380,7 @@ const FAQ_SECTIONS: FAQSection[] = [
       {
         question: "How do I get a quote and book a removal?",
         snippet:
-          "The fastest way is to call 07778 298447 directly — we can quote and confirm your booking on the same call. Alternatively, complete our free online quote form with your move details. We respond to all online enquiries within a few hours during business hours. For same-day and emergency requests, always call.",
+          "The fastest way is to call 07438 447286 directly — we can quote and confirm your booking on the same call. Alternatively, complete our free online quote form with your move details. We respond to all online enquiries within a few hours during business hours. For same-day and emergency requests, always call.",
         linkLabel: "Request a free quote online",
         linkHref: "/quote",
       },
@@ -397,7 +397,7 @@ const FAQ_SECTIONS: FAQSection[] = [
       {
         question: "How quickly do you respond to quote requests?",
         snippet:
-          "We aim to respond to all online quote requests within a few hours during business hours (Monday–Saturday 07:00–20:00, Sunday 08:00–18:00). For urgent responses — same-day availability, emergency moves — always call 07778 298447 directly for an instant answer.",
+          "We aim to respond to all online quote requests within a few hours during business hours (Monday–Saturday 07:00–20:00, Sunday 08:00–18:00). For urgent responses — same-day availability, emergency moves — always call 07438 447286 directly for an instant answer.",
       },
       {
         question: "What happens on moving day from start to finish?",
@@ -523,7 +523,7 @@ const FAQ_SECTIONS: FAQSection[] = [
       {
         question: "How quickly can you arrange a house clearance in Wolverhampton?",
         snippet:
-          "For urgent clearances in Wolverhampton and the surrounding area, we can often arrange attendance within 1–3 working days. Planned clearances can be booked as far in advance as required. Call 07778 298447 to discuss your situation and check current availability.",
+          "For urgent clearances in Wolverhampton and the surrounding area, we can often arrange attendance within 1–3 working days. Planned clearances can be booked as far in advance as required. Call 07438 447286 to discuss your situation and check current availability.",
       },
     ],
   },
@@ -541,14 +541,14 @@ const FAQ_SECTIONS: FAQSection[] = [
       {
         question: "Can you do a same-day house removal in Wolverhampton?",
         snippet:
-          "Yes. Same-day house removals are available in Wolverhampton and the West Midlands, subject to schedule availability. Call 07778 298447 as early in the day as possible — the earlier you call, the more likely we can accommodate you. We hold capacity specifically for urgent and same-day situations.",
+          "Yes. Same-day house removals are available in Wolverhampton and the West Midlands, subject to schedule availability. Call 07438 447286 as early in the day as possible — the earlier you call, the more likely we can accommodate you. We hold capacity specifically for urgent and same-day situations.",
         linkLabel: "Same-day removal service",
         linkHref: "/services/same-day-removals",
       },
       {
         question: "How quickly can you respond to an emergency removal?",
         snippet:
-          "For emergency removals in Wolverhampton, we aim to respond within 1–4 hours depending on our current schedule. In genuine crisis situations — including domestic emergencies, bailiff situations, flood evacuations, or last-minute completions — call 07778 298447 immediately and explain the urgency. We prioritise accordingly.",
+          "For emergency removals in Wolverhampton, we aim to respond within 1–4 hours depending on our current schedule. In genuine crisis situations — including domestic emergencies, bailiff situations, flood evacuations, or last-minute completions — call 07438 447286 immediately and explain the urgency. We prioritise accordingly.",
         linkLabel: "Emergency removal service",
         linkHref: "/services/emergency-removals",
       },
@@ -565,12 +565,12 @@ const FAQ_SECTIONS: FAQSection[] = [
       {
         question: "Can you step in if my removal company has let me down on the day?",
         snippet:
-          "Yes. A removal company cancelling on moving day — or simply not turning up — is one of the most frequent emergency calls we receive. Call 07778 298447 immediately. Explain the situation and we will assess our current schedule and do everything possible to cover your move at short notice.",
+          "Yes. A removal company cancelling on moving day — or simply not turning up — is one of the most frequent emergency calls we receive. Call 07438 447286 immediately. Explain the situation and we will assess our current schedule and do everything possible to cover your move at short notice.",
       },
       {
         question: "Can you do an emergency house clearance in Wolverhampton?",
         snippet:
-          "Yes. Urgent clearances are available across Wolverhampton and the West Midlands — including probate, repossession, eviction, and flood damage situations. Call 07778 298447 directly to discuss timescale and availability. We can often attend within 24–48 hours for genuine emergency clearances.",
+          "Yes. Urgent clearances are available across Wolverhampton and the West Midlands — including probate, repossession, eviction, and flood damage situations. Call 07438 447286 directly to discuss timescale and availability. We can often attend within 24–48 hours for genuine emergency clearances.",
       },
     ],
   },

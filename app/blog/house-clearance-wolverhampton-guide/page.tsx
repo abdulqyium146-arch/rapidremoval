@@ -64,7 +64,7 @@ const faqSchema = {
       name: "How much does a house clearance service cost in Wolverhampton?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A house clearance in Wolverhampton typically starts from £150 for a single room and £300–£800 for a full property, depending on volume, floors, and access. Get Rapid Removals provides free, no-obligation fixed-price quotes. Call 07778 298447.",
+        text: "A house clearance in Wolverhampton typically starts from £150 for a single room and £300–£800 for a full property, depending on volume, floors, and access. Get Rapid Removals provides free, no-obligation fixed-price quotes. Call 07438 447286.",
       },
     },
     {
@@ -112,7 +112,7 @@ const faqSchema = {
       name: "Do you cover Birmingham and Walsall for house clearance?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Get Rapid Removals provides house clearance services across Wolverhampton, Birmingham, Walsall, Dudley, Cannock, and the wider West Midlands. Call 07778 298447 for a free quote in any of these areas.",
+        text: "Yes. Get Rapid Removals provides house clearance services across Wolverhampton, Birmingham, Walsall, Dudley, Cannock, and the wider West Midlands. Call 07438 447286 for a free quote in any of these areas.",
       },
     },
     {
@@ -853,7 +853,7 @@ export default function HouseClearanceWolverhamptonGuidePage() {
               },
               {
                 q: "How quickly can a house clearance be arranged in Wolverhampton?",
-                a: "Get Rapid Removals can often arrange clearances within 1–3 working days for urgent situations. Planned clearances can be booked as far in advance as needed. Call 07778 298447 to check availability.",
+                a: "Get Rapid Removals can often arrange clearances within 1–3 working days for urgent situations. Planned clearances can be booked as far in advance as needed. Call 07438 447286 to check availability.",
               },
               {
                 q: "What are the responsibilities of a house clearance company?",

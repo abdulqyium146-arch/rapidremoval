@@ -122,7 +122,7 @@ const aboutSchema = {
         url: `${SITE.url}/images/get-rapid-removals-luton-van-wolverhampton.webp`,
         name: "Get Rapid Removals branded Luton removal van in Wolverhampton",
         description:
-          "Get Rapid Removals Luton van with company branding and phone number 07778 298447",
+          "Get Rapid Removals Luton van with company branding and phone number 07438 447286",
       },
     ],
     address: {

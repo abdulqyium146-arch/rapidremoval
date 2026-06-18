@@ -9,9 +9,9 @@ export const SITE = {
     "Get Rapid Removals is Wolverhampton's trusted local removals and clearance company. We specialise in house removals, house clearance, man and van, office relocations, furniture transport, and professional packing services across Wolverhampton, the West Midlands, and beyond. Fully insured, competitively priced, and available same day.",
   url: "https://getrapidremovals.co.uk",
   domain: "getrapidremovals.co.uk",
-  phone: "+447778298447",
-  phoneDisplay: "07778 298447",
-  whatsapp: "447778298447",
+  phone: "+447438447286",
+  phoneDisplay: "07438 447286",
+  whatsapp: "447438447286",
   email: "info@getrapidremovals.co.uk",
   address: {
     street: "Whitmore Reans",
@@ -97,7 +97,7 @@ export const PROCESS_STEPS = [
     step: 1,
     title: "Request Your Free Quote",
     description:
-      "Call us on 07778 298447 or complete our online form. We provide fast, accurate, no-obligation quotes — no hidden fees, ever.",
+      "Call us on 07438 447286 or complete our online form. We provide fast, accurate, no-obligation quotes — no hidden fees, ever.",
   },
   {
     step: 2,
@@ -129,12 +129,12 @@ export const FAQS = [
   {
     question: "How much does a house removal in Wolverhampton cost?",
     answer:
-      "House removal costs in Wolverhampton vary depending on the size of your home, the distance of the move, and any additional services such as packing. A typical 2-bedroom house removal within Wolverhampton starts from around £300–£450. We provide free, no-obligation quotes tailored to your exact requirements — contact us on 07778 298447 for an accurate estimate.",
+      "House removal costs in Wolverhampton vary depending on the size of your home, the distance of the move, and any additional services such as packing. A typical 2-bedroom house removal within Wolverhampton starts from around £300–£450. We provide free, no-obligation quotes tailored to your exact requirements — contact us on 07438 447286 for an accurate estimate.",
   },
   {
     question: "Do you offer same-day removals in Wolverhampton?",
     answer:
-      "Yes. Get Rapid Removals offers same-day removals across Wolverhampton and the West Midlands, subject to availability. We understand that moves don't always go to plan, and we're ready to help at short notice. Call us directly on 07778 298447 for same-day availability.",
+      "Yes. Get Rapid Removals offers same-day removals across Wolverhampton and the West Midlands, subject to availability. We understand that moves don't always go to plan, and we're ready to help at short notice. Call us directly on 07438 447286 for same-day availability.",
   },
   {
     question: "Are you fully insured for house removals?",

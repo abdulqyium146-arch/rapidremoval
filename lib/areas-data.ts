@@ -17,7 +17,7 @@ Our Wolverhampton removal service covers every postcode: WV1 (City Centre), WV2 
 Whether you're moving within Wolverhampton, relocating to another part of the West Midlands, or moving further afield in the UK, we are your trusted Wolverhampton removal company.`,
     metaTitle: "Removals Wolverhampton | Get Rapid Removals | Local Experts",
     metaDescription:
-      "Get Rapid Removals — Wolverhampton's trusted local removal company. House removals, clearances, and man and van across all WV postcodes. Free quote: 07778 298447.",
+      "Get Rapid Removals — Wolverhampton's trusted local removal company. House removals, clearances, and man and van across all WV postcodes. Free quote: 07438 447286.",
     heroHeadline: "Wolverhampton's Trusted Removal Company",
     heroSubheadline:
       "Local experts serving all WV postcodes. House removals, clearances, and man and van across Wolverhampton.",
@@ -66,7 +66,7 @@ We cover all of Bilston including the town centre, Bradley, Ettingshall, Coseley
 Bilston residents trust Get Rapid Removals for competitively priced, professional house removals with no hidden fees. Whether you're moving from a 1-bedroom flat to a 5-bedroom family home, we have the team and vehicles to handle it.`,
     metaTitle: "Removals Bilston WV14 | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Professional removals and house clearance in Bilston, WV14. Trusted local company with 5-star reviews. Free quotes — call 07778 298447.",
+      "Professional removals and house clearance in Bilston, WV14. Trusted local company with 5-star reviews. Free quotes — call 07438 447286.",
     heroHeadline: "Removals & Clearance in Bilston, WV14",
     heroSubheadline:
       "Your trusted local removal company serving Bilston and Bradley. Free quotes, same-day available.",
@@ -101,7 +101,7 @@ Wednesfield is a busy residential area with a mix of terraced, semi-detached, an
 We provide house removals, house clearance, man and van, and same-day services throughout Wednesfield and WV11. Call us for a free quote today.`,
     metaTitle: "Removals Wednesfield WV11 | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Trusted removals and house clearance in Wednesfield, WV11. 5-star rated local company. Free quotes — call 07778 298447.",
+      "Trusted removals and house clearance in Wednesfield, WV11. 5-star rated local company. Free quotes — call 07438 447286.",
     heroHeadline: "Removals & Clearance in Wednesfield, WV11",
     heroSubheadline:
       "Professional removals serving Wednesfield and New Cross. Free quotes, same-day available.",
@@ -130,7 +130,7 @@ Tettenhall is one of Wolverhampton's most sought-after residential areas, with a
 We also cover Perton, Codsall, Tettenhall Wood, and Newbridge. Whether you're downsizing from a large Tettenhall home or moving into the area, Get Rapid Removals ensures a smooth, professional experience from first call to final placement.`,
     metaTitle: "Removals Tettenhall WV6 | Premium Service | Get Rapid Removals",
     metaDescription:
-      "Professional removals and house clearance in Tettenhall, WV6. Specialists in high-value moves. Free quotes — call 07778 298447.",
+      "Professional removals and house clearance in Tettenhall, WV6. Specialists in high-value moves. Free quotes — call 07438 447286.",
     heroHeadline: "Premium Removals in Tettenhall, WV6",
     heroSubheadline:
       "Specialist removal service for Tettenhall and Perton. Expert handling for premium properties.",
@@ -164,7 +164,7 @@ We regularly serve customers across all of Dudley's many neighbourhoods — Neth
 Our Dudley customers value our punctuality, competitive pricing, and the care we take with their belongings. House removals, house clearances, man and van, and same-day services all available across the Dudley area.`,
     metaTitle: "Removals Dudley | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Professional removals and house clearance in Dudley. Serving DY1–DY3. 5-star rated service. Free quotes — call 07778 298447.",
+      "Professional removals and house clearance in Dudley. Serving DY1–DY3. 5-star rated service. Free quotes — call 07438 447286.",
     heroHeadline: "Removals & Clearance in Dudley",
     heroSubheadline:
       "Professional removal services across Dudley and the Black Country. Free quotes, same-day available.",
@@ -194,7 +194,7 @@ Located 9 miles from Walsall town centre, we serve the full WS postcode area reg
 We cover all property types across Walsall — from the terraced streets of Pleck and Bescot to the larger detached properties in Aldridge and Four Oaks. Same-day and next-day moves available across Walsall.`,
     metaTitle: "Removals Walsall | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Professional removals and house clearance in Walsall, WS1–WS9. 5-star rated company. Free quotes — call 07778 298447.",
+      "Professional removals and house clearance in Walsall, WS1–WS9. 5-star rated company. Free quotes — call 07438 447286.",
     heroHeadline: "Removals & Clearance in Walsall",
     heroSubheadline:
       "Trusted local removal company serving Walsall and surrounding areas. Free quotes available.",
@@ -222,7 +222,7 @@ We regularly move families and businesses between Cannock and Wolverhampton, as 
 Cannock Chase's excellent transport links make it a popular choice for commuters from Wolverhampton and Birmingham, and we help many families make this relocation each year. Whether you're moving to or from Cannock, Get Rapid Removals provides a professional, stress-free experience.`,
     metaTitle: "Removals Cannock | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Professional removals and house clearance in Cannock. Serving WS11–WS12. Free quotes — call 07778 298447.",
+      "Professional removals and house clearance in Cannock. Serving WS11–WS12. Free quotes — call 07438 447286.",
     heroHeadline: "Removals & Clearance in Cannock",
     heroSubheadline:
       "Professional removal services for Cannock and surrounding Staffordshire. Free quotes available.",
@@ -250,7 +250,7 @@ We cover all of Birmingham's B postcodes — from the city centre to Harborne, E
 Whether you're moving from Birmingham to Wolverhampton, within Birmingham, or from Birmingham to another UK location, our experienced team delivers a professional service every time.`,
     metaTitle: "Removals Birmingham | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Professional removals between Birmingham and Wolverhampton. All B postcodes covered. Free quotes — call 07778 298447.",
+      "Professional removals between Birmingham and Wolverhampton. All B postcodes covered. Free quotes — call 07438 447286.",
     heroHeadline: "Removals Between Birmingham & Wolverhampton",
     heroSubheadline:
       "Professional removal services connecting Birmingham and Wolverhampton. All B postcodes covered.",
@@ -284,7 +284,7 @@ We cover all of West Bromwich including Great Barr, Handsworth, Wednesbury, Tipt
 West Bromwich to Wolverhampton is one of our most popular routes, with many families and professionals making this move each year. We also provide local moves within the Sandwell area.`,
     metaTitle: "Removals West Bromwich | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Professional removals and house clearance in West Bromwich. Serving B70–B71. Free quotes — call 07778 298447.",
+      "Professional removals and house clearance in West Bromwich. Serving B70–B71. Free quotes — call 07438 447286.",
     heroHeadline: "Removals & Clearance in West Bromwich",
     heroSubheadline:
       "Professional removal services for West Bromwich and Sandwell. Free quotes, same-day available.",
@@ -314,7 +314,7 @@ Whitmore Reans sits in the WV6 postcode, bordering Tettenhall, Compton, and Penn
 Whether you're moving within Whitmore Reans, relocating to another part of Wolverhampton, or moving further across the West Midlands, Get Rapid Removals offers a professional, fully insured, and competitively priced service. Free quotes available same day.`,
     metaTitle: "Removals Whitmore Reans WV6 | Get Rapid Removals | Local Experts",
     metaDescription:
-      "Get Rapid Removals is based in Whitmore Reans, WV6. Local house removals, clearances & man and van. 5-star rated, fully insured. Free quote: 07778 298447.",
+      "Get Rapid Removals is based in Whitmore Reans, WV6. Local house removals, clearances & man and van. 5-star rated, fully insured. Free quote: 07438 447286.",
     heroHeadline: "House Removals in Whitmore Reans, WV6",
     heroSubheadline:
       "Our home base. Local experts serving Whitmore Reans and all of WV6. Free quotes, same-day available.",
@@ -351,7 +351,7 @@ Our team regularly handles high-quality house removals in Codsall, where propert
 Codsall is also popular with people relocating from Wolverhampton or commuting into the city, and we're frequently called for moves between Codsall and Tettenhall, Wolverhampton city centre, and further afield.`,
     metaTitle: "Removals Codsall WV8 | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Professional house removals and clearance in Codsall, WV8. 7 miles from Wolverhampton. 5-star rated service. Free quote: 07778 298447.",
+      "Professional house removals and clearance in Codsall, WV8. 7 miles from Wolverhampton. 5-star rated service. Free quote: 07438 447286.",
     heroHeadline: "House Removals in Codsall, WV8",
     heroSubheadline:
       "Professional removal service for Codsall and Bilbrook. Just 7 miles from our Wolverhampton base.",
@@ -386,7 +386,7 @@ We regularly move families between Wolverhampton and Stafford, helping them make
 Our Stafford service covers the full ST16–ST21 postcode area including Stafford town centre, Wildwood, Weeping Cross, Baswich, and Creswell. We provide house removals, house clearance, man and van, and same-day moves throughout the area.`,
     metaTitle: "Removals Stafford | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Professional removals and house clearance in Stafford. Serving ST16–ST21. Free quotes — call 07778 298447.",
+      "Professional removals and house clearance in Stafford. Serving ST16–ST21. Free quotes — call 07438 447286.",
     heroHeadline: "Removals & Clearance in Stafford",
     heroSubheadline:
       "Professional removal services for Stafford and Staffordshire. Free quotes available.",

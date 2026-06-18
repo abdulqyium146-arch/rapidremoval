@@ -7,7 +7,7 @@ export const SERVICES: ServiceData[] = [
     shortTitle: "House Removals",
     metaTitle: "House Removals Wolverhampton | Get Rapid Removals | Free Quote",
     metaDescription:
-      "Professional house removals in Wolverhampton. Fully insured, experienced team, careful handling guaranteed. Free quotes — call 07778 298447.",
+      "Professional house removals in Wolverhampton. Fully insured, experienced team, careful handling guaranteed. Free quotes — call 07438 447286.",
     heroHeadline: "Professional House Removals in Wolverhampton",
     heroSubheadline:
       "Stress-free, fully insured house removals across Wolverhampton & the West Midlands. Local experts with 5+ years experience.",
@@ -105,7 +105,7 @@ Our removal logistics are fully planned before moving day — route, access, veh
     shortTitle: "House Clearance",
     metaTitle: "House Clearance Service Wolverhampton | Local, Same-Day | Get Rapid Removals",
     metaDescription:
-      "Local house clearance service in Wolverhampton, Birmingham & Walsall. Full, estate, hoarder & compassionate clearances. Charity donations arranged. Licensed waste carrier. Free quote: 07778 298447.",
+      "Local house clearance service in Wolverhampton, Birmingham & Walsall. Full, estate, hoarder & compassionate clearances. Charity donations arranged. Licensed waste carrier. Free quote: 07438 447286.",
     heroHeadline: "House Clearance Service in Wolverhampton",
     heroSubheadline:
       "Local house clearance service across Wolverhampton, Birmingham, Walsall & the West Midlands. Compassionate estate clearances, hoarder clearances, charity donations, and same-day availability.",
@@ -170,7 +170,7 @@ Note: Local councils such as Wolverhampton City Council provide a bulky waste co
       {
         question: "How much does a house clearance cost in Wolverhampton?",
         answer:
-          "A typical 2-bedroom house clearance in Wolverhampton costs £200–£500 depending on the volume of items, access, and whether any furniture can be donated or resold to offset the cost. We provide free no-obligation quotes before any work begins. Call 07778 298447.",
+          "A typical 2-bedroom house clearance in Wolverhampton costs £200–£500 depending on the volume of items, access, and whether any furniture can be donated or resold to offset the cost. We provide free no-obligation quotes before any work begins. Call 07438 447286.",
       },
       {
         question: "Can I get a free house clearance service?",
@@ -200,7 +200,7 @@ Note: Local councils such as Wolverhampton City Council provide a bulky waste co
       {
         question: "Do you cover Birmingham and Walsall for house clearance?",
         answer:
-          "Yes. Our house clearance service covers Wolverhampton, Birmingham, Walsall, Dudley, Cannock, and the wider West Midlands. We provide the same professional, licensed clearance service across all areas we cover. Call 07778 298447 for a free quote.",
+          "Yes. Our house clearance service covers Wolverhampton, Birmingham, Walsall, Dudley, Cannock, and the wider West Midlands. We provide the same professional, licensed clearance service across all areas we cover. Call 07438 447286 for a free quote.",
       },
       {
         question: "Can I clear my parents' house before probate?",
@@ -279,7 +279,7 @@ Note: Local councils such as Wolverhampton City Council provide a bulky waste co
     shortTitle: "Man & Van",
     metaTitle: "Man and Van Wolverhampton | Same Day | Get Rapid Removals",
     metaDescription:
-      "Affordable man and van service in Wolverhampton. Single items, flat moves, student moves & more. Same-day available. Call 07778 298447.",
+      "Affordable man and van service in Wolverhampton. Single items, flat moves, student moves & more. Same-day available. Call 07438 447286.",
     heroHeadline: "Man and Van Service in Wolverhampton",
     heroSubheadline:
       "Affordable, reliable man and van hire across Wolverhampton. Perfect for small moves, single items, and collections.",
@@ -365,7 +365,7 @@ We cover all of Wolverhampton including Whitmore Reans, Penn, Fordhouses, Bushbu
     shortTitle: "Office Removals",
     metaTitle: "Office Removals Wolverhampton | Commercial Moves | Get Rapid Removals",
     metaDescription:
-      "Professional office and commercial removals in Wolverhampton. Minimise downtime with our expert business relocation team. Free quote: 07778 298447.",
+      "Professional office and commercial removals in Wolverhampton. Minimise downtime with our expert business relocation team. Free quote: 07438 447286.",
     heroHeadline: "Office & Commercial Removals Wolverhampton",
     heroSubheadline:
       "Minimise disruption with our professional office relocation service. Out-of-hours moves available across Wolverhampton.",
@@ -447,7 +447,7 @@ Whether you're moving across the same business park or relocating your entire op
     shortTitle: "Furniture Removals",
     metaTitle: "Furniture Removals Wolverhampton | Single Items | Get Rapid Removals",
     metaDescription:
-      "Safe furniture removal and delivery in Wolverhampton. Single sofas, wardrobes, beds, and more. Careful handling guaranteed. Call 07778 298447.",
+      "Safe furniture removal and delivery in Wolverhampton. Single sofas, wardrobes, beds, and more. Careful handling guaranteed. Call 07438 447286.",
     heroHeadline: "Furniture Removal & Delivery Wolverhampton",
     heroSubheadline:
       "Safe, careful furniture removals across Wolverhampton. Single items or entire rooms — we handle it all.",
@@ -527,7 +527,7 @@ For smaller requirements, our small furniture moving service covers individual c
     shortTitle: "Packing Services",
     metaTitle: "Professional Packing Services Wolverhampton | Get Rapid Removals",
     metaDescription:
-      "Expert packing and unpacking services in Wolverhampton. Fragile items, fine art, full home packing. Supplies included. Call 07778 298447.",
+      "Expert packing and unpacking services in Wolverhampton. Fragile items, fine art, full home packing. Supplies included. Call 07438 447286.",
     heroHeadline: "Professional Packing Services in Wolverhampton",
     heroSubheadline:
       "Expert packing by trained professionals — protecting your belongings from first wrap to final placement.",
@@ -601,7 +601,7 @@ For fine art, antiques, mirrors, and other high-value items, we use specialist w
     shortTitle: "Student Moves",
     metaTitle: "Student Removals Wolverhampton | Affordable | Get Rapid Removals",
     metaDescription:
-      "Affordable student removal service in Wolverhampton. University moves, halls clearances, flat moves. Great rates. Call 07778 298447.",
+      "Affordable student removal service in Wolverhampton. University moves, halls clearances, flat moves. Great rates. Call 07438 447286.",
     heroHeadline: "Student Removal Service Wolverhampton",
     heroSubheadline:
       "Affordable student moves across Wolverhampton and beyond. Start and end of term, halls to flat, and everything in between.",
@@ -673,10 +673,10 @@ We're available at the start and end of every semester, during the summer, and a
     shortTitle: "Same Day Removals",
     metaTitle: "Same Day Removals Wolverhampton | Emergency Moves | Get Rapid Removals",
     metaDescription:
-      "Same-day removals in Wolverhampton. Emergency and last-minute moves available today. Call now: 07778 298447 for immediate availability.",
+      "Same-day removals in Wolverhampton. Emergency and last-minute moves available today. Call now: 07438 447286 for immediate availability.",
     heroHeadline: "Same Day Removals in Wolverhampton",
     heroSubheadline:
-      "Need to move today? Our rapid response team is ready. Call 07778 298447 for same-day availability.",
+      "Need to move today? Our rapid response team is ready. Call 07438 447286 for same-day availability.",
     description:
       "Emergency same-day removal service across Wolverhampton. Call now for immediate availability and a fast, reliable response.",
     longDescription: `Life doesn't always give you time to plan. Whether you've had a sudden change of circumstances, a last-minute completion, an emergency eviction, or simply need items moved today — Get Rapid Removals is Wolverhampton's same-day removal specialist.
@@ -717,7 +717,7 @@ When you call us for a same-day removal, we respond immediately, give you an hon
       {
         question: "Can you really move me today?",
         answer:
-          "Often yes — subject to availability. Call us on 07778 298447 and we'll tell you immediately whether we can help today.",
+          "Often yes — subject to availability. Call us on 07438 447286 and we'll tell you immediately whether we can help today.",
       },
       {
         question: "Is same-day more expensive?",
@@ -744,10 +744,10 @@ When you call us for a same-day removal, we respond immediately, give you an hon
     shortTitle: "Emergency Removals",
     metaTitle: "Emergency Removals Wolverhampton | 24 Hour | Get Rapid Removals",
     metaDescription:
-      "Emergency removal service in Wolverhampton. Evictions, domestic situations, urgent moves. Call 07778 298447 for immediate help.",
+      "Emergency removal service in Wolverhampton. Evictions, domestic situations, urgent moves. Call 07438 447286 for immediate help.",
     heroHeadline: "Emergency Removal Service Wolverhampton",
     heroSubheadline:
-      "Immediate response for urgent and emergency moves across Wolverhampton. Call 07778 298447 right now.",
+      "Immediate response for urgent and emergency moves across Wolverhampton. Call 07438 447286 right now.",
     description:
       "Emergency removal service for Wolverhampton and the West Midlands. Rapid response for urgent situations, evictions, and emergency relocations.",
     longDescription: `When you need to move urgently and cannot wait, Get Rapid Removals provides an emergency removal service across Wolverhampton and the West Midlands. We understand that emergency situations are stressful, and we're here to help — quickly, professionally, and with compassion.
@@ -796,7 +796,7 @@ All emergency moves are handled with complete discretion. We understand these si
       {
         question: "How quickly can you respond?",
         answer:
-          "We aim to respond within 1–2 hours in Wolverhampton for genuine emergencies, subject to vehicle availability. Call us immediately on 07778 298447.",
+          "We aim to respond within 1–2 hours in Wolverhampton for genuine emergencies, subject to vehicle availability. Call us immediately on 07438 447286.",
       },
     ],
     schema: {
@@ -818,7 +818,7 @@ All emergency moves are handled with complete discretion. We understand these si
     shortTitle: "End of Tenancy Clearance",
     metaTitle: "End of Tenancy Clearance Wolverhampton | Get Rapid Removals",
     metaDescription:
-      "Professional end of tenancy clearance in Wolverhampton. Landlords, tenants, letting agents. Fast, thorough property clearances. Call 07778 298447.",
+      "Professional end of tenancy clearance in Wolverhampton. Landlords, tenants, letting agents. Fast, thorough property clearances. Call 07438 447286.",
     heroHeadline: "End of Tenancy Clearance Wolverhampton",
     heroSubheadline:
       "Fast, thorough end-of-tenancy property clearances across Wolverhampton. Ready for new tenants the same day.",
@@ -895,7 +895,7 @@ Same-day and next-day clearances are available across Wolverhampton. We can coll
     shortTitle: "Commercial Moves",
     metaTitle: "Commercial Moving Services Wolverhampton | Business Moves | Get Rapid Removals",
     metaDescription:
-      "Expert commercial and business moving services in Wolverhampton. Warehouses, retail, hospitality. Minimal disruption. Call 07778 298447.",
+      "Expert commercial and business moving services in Wolverhampton. Warehouses, retail, hospitality. Minimal disruption. Call 07438 447286.",
     heroHeadline: "Commercial Moving Services Wolverhampton",
     heroSubheadline:
       "Professional commercial relocations for businesses of all sizes across Wolverhampton and the West Midlands.",
@@ -976,7 +976,7 @@ Our commercial fleet includes small vans, Luton vans, and large commercial vehic
     shortTitle: "Senior Moves",
     metaTitle: "Senior Removals Wolverhampton | Elderly Moving Specialists | Get Rapid Removals",
     metaDescription:
-      "Specialist senior and elderly removals in Wolverhampton. Patient, caring team for downsizing, care home moves, and supported transitions. Free quote: 07778 298447.",
+      "Specialist senior and elderly removals in Wolverhampton. Patient, caring team for downsizing, care home moves, and supported transitions. Free quote: 07438 447286.",
     heroHeadline: "Senior Moving Services in Wolverhampton",
     heroSubheadline:
       "Patient, caring specialist removals for seniors and elderly customers across Wolverhampton and the West Midlands.",
@@ -1064,7 +1064,7 @@ All senior removals are handled with full goods-in-transit and public liability 
     shortTitle: "Long Distance Removals",
     metaTitle: "Long Distance Removals Wolverhampton | UK-Wide | Get Rapid Removals",
     metaDescription:
-      "Professional long distance and inter-county removals from Wolverhampton. UK-wide coverage, fixed-price quotes, fully insured. Free quote: 07778 298447.",
+      "Professional long distance and inter-county removals from Wolverhampton. UK-wide coverage, fixed-price quotes, fully insured. Free quote: 07438 447286.",
     heroHeadline: "Long Distance Removals from Wolverhampton",
     heroSubheadline:
       "UK-wide inter-county and long-distance house removals from Wolverhampton. Fixed-price quotes, fully insured, professional team.",
