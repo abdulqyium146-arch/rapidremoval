@@ -96,6 +96,7 @@ export const metadata: Metadata = {
     google: [
       "8wF_eexPI_YiE5ZafXEnotKqYPqFCvOXJdo-mVM7W3g",
       "EBgfaOueWTj98JdKlEiCymp4jTkECcekO6dHX8qSPnY",
+      "YkZZJwUJWbQrrEG-e1wNFUqqa-zUHrYwN-7bLY3p3v0",
     ],
   },
   category: "Business",
