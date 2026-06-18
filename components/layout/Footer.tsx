@@ -58,6 +58,13 @@ const LEGAL_LINKS = [
   { label: "HTML Sitemap", href: "/sitemap-html" },
 ];
 
+// Topical authority: specific guide content signals to Google/AI that we own these topics
+const BLOG_POSTS = [
+  { label: "House Removal Costs Wolverhampton", href: "/blog/house-removal-cost-wolverhampton" },
+  { label: "How to Prepare for a House Removal", href: "/blog/how-to-prepare-for-a-house-removal" },
+  { label: "House Clearance Guide", href: "/blog/house-clearance-wolverhampton-guide" },
+];
+
 function FooterHeading({ children }: { children: React.ReactNode }) {
   return (
     <h3 className="font-bold text-white mb-4 text-xs uppercase tracking-widest">
@@ -138,17 +145,17 @@ export function Footer() {
             </Link>
 
             <p className="text-slate-400 text-sm leading-relaxed mb-5">
-              Wolverhampton&apos;s trusted local removals and clearance company. Professional,
-              fully insured, and always on time. Serving the West Midlands since {SITE.established}.
+              Wolverhampton&apos;s trusted local removals and clearance company. Professional house removals, house clearance &amp; man and van — fully insured, licensed waste carrier, 5.0★ Google rated. Est. {SITE.established}. 500+ moves completed across the West Midlands.
             </p>
 
-            {/* Trust badges */}
+            {/* Trust badges — E-E-A-T signals */}
             <div className="flex flex-wrap gap-2 mb-7">
               {[
-                { icon: Star, label: "5.0★ Google Rated" },
-                { icon: Shield, label: "Fully Insured" },
-                { icon: CheckCircle, label: "Free Quotes" },
-                { icon: Award, label: "Licensed Carrier" },
+                { icon: Star,         label: "5.0★ · 11 Reviews" },
+                { icon: Shield,       label: "Fully Insured" },
+                { icon: CheckCircle,  label: "Free Quotes" },
+                { icon: Award,        label: "Licensed Waste Carrier" },
+                { icon: Truck,        label: "Est. 2019" },
               ].map(({ icon: Icon, label }) => (
                 <div
                   key={label}
@@ -291,11 +298,28 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Column 5: Resources & Legal cluster */}
+          {/* Column 5: Resources & Legal — topical authority hub */}
           <div>
-            <FooterHeading>Resources</FooterHeading>
+            <FooterHeading>Moving Guides</FooterHeading>
+            <ul className="space-y-2.5 mb-2">
+              {BLOG_POSTS.map((post) => (
+                <FooterLink key={post.href} href={post.href}>
+                  {post.label}
+                </FooterLink>
+              ))}
+              <li className="pt-0.5">
+                <Link
+                  href="/blog"
+                  className="text-brand-sky hover:text-blue-300 text-sm font-medium transition-colors"
+                >
+                  All Guides →
+                </Link>
+              </li>
+            </ul>
+
+            <FooterHeading>Info &amp; Help</FooterHeading>
             <ul className="space-y-2.5 mb-6">
-              {RESOURCE_LINKS.map((link) => (
+              {RESOURCE_LINKS.filter((l) => l.href !== "/blog").map((link) => (
                 <FooterLink key={link.href} href={link.href}>
                   {link.label}
                 </FooterLink>
@@ -334,9 +358,15 @@ export function Footer() {
               Serving{" "}
               <Link href="/areas/wolverhampton" className="hover:text-slate-300 transition-colors">Wolverhampton</Link>
               {" · "}
+              <Link href="/areas/whitmore-reans" className="hover:text-slate-300 transition-colors">Whitmore Reans</Link>
+              {" · "}
               <Link href="/areas/bilston" className="hover:text-slate-300 transition-colors">Bilston</Link>
               {" · "}
               <Link href="/areas/wednesfield" className="hover:text-slate-300 transition-colors">Wednesfield</Link>
+              {" · "}
+              <Link href="/areas/tettenhall" className="hover:text-slate-300 transition-colors">Tettenhall</Link>
+              {" · "}
+              <Link href="/areas/codsall" className="hover:text-slate-300 transition-colors">Codsall</Link>
               {" · "}
               <Link href="/areas/dudley" className="hover:text-slate-300 transition-colors">Dudley</Link>
               {" · "}

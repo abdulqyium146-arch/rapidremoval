@@ -65,10 +65,16 @@ const REGIONAL_AREAS = [
 ];
 
 const RESOURCE_LINKS = [
-  { label: "Blog & Moving Guides",      href: "/blog",    desc: "Costs, tips & expert advice" },
   { label: "FAQs — 74 Answered",        href: "/faq",     desc: "Prices, areas, process & trust" },
   { label: "About Get Rapid Removals",  href: "/about",   desc: "Our story, team & values" },
   { label: "Contact Us",                href: "/contact", desc: "Call, email or message us" },
+];
+
+// Topical authority cluster: specific guides signal content depth to Google & AI crawlers
+const BLOG_POSTS = [
+  { label: "House Removal Costs Wolverhampton", href: "/blog/house-removal-cost-wolverhampton",      desc: "2025 pricing guide" },
+  { label: "How to Prepare for a Removal",      href: "/blog/how-to-prepare-for-a-house-removal",   desc: "Expert moving checklist" },
+  { label: "House Clearance Guide",             href: "/blog/house-clearance-wolverhampton-guide",   desc: "Process, costs & probate" },
 ];
 
 type MegaMenu = "services" | "areas" | "guides" | null;
@@ -194,11 +200,14 @@ export function Header() {
                         </div>
                       ))}
                     </div>
-                    {/* Mega footer bar */}
+                    {/* Mega footer bar — E-E-A-T trust signals */}
                     <div className="flex items-center justify-between px-5 py-2.5 bg-brand-neutral border-t border-slate-100">
-                      <Link href="/services" className="text-[11px] text-brand-muted hover:text-brand-blue font-semibold flex items-center gap-1 transition-colors">
-                        All services <ArrowRight className="w-3 h-3" />
-                      </Link>
+                      <div className="flex items-center gap-3">
+                        <Link href="/services" className="text-[11px] text-brand-muted hover:text-brand-blue font-semibold flex items-center gap-1 transition-colors">
+                          All services <ArrowRight className="w-3 h-3" />
+                        </Link>
+                        <span className="text-[9px] text-brand-muted hidden xl:inline">·&nbsp;&nbsp;5.0★ Google Rated · Fully Insured · Licensed Waste Carrier</span>
+                      </div>
                       <Link href="/quote" className="text-[11px] bg-brand-blue text-white px-3.5 py-1.5 rounded-lg font-bold hover:bg-blue-700 transition-colors flex items-center gap-1">
                         Get Free Quote <ArrowRight className="w-3 h-3" />
                       </Link>
@@ -297,26 +306,55 @@ export function Header() {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 10, scale: 0.97 }}
                     transition={{ duration: 0.14 }}
-                    className={cn(megaPanel, "left-1/2 -translate-x-1/2 w-[280px] py-2")}
+                    className={cn(megaPanel, "left-1/2 -translate-x-1/2 w-[340px]")}
                   >
-                    {RESOURCE_LINKS.map((link) => (
-                      <Link
-                        key={link.href}
-                        href={link.href}
-                        className={cn(
-                          "group block px-4 py-2.5 hover:bg-brand-neutral transition-colors",
-                          pathname === link.href ? "bg-blue-50" : ""
-                        )}
-                      >
-                        <span className={cn(
-                          "block text-sm font-semibold transition-colors",
-                          pathname === link.href ? "text-brand-blue" : "text-brand-dark group-hover:text-brand-blue"
-                        )}>
-                          {link.label}
-                        </span>
-                        <span className="block text-[10px] text-brand-muted">{link.desc}</span>
+                    {/* Moving Guides — topical authority cluster */}
+                    <div className="p-3 border-b border-slate-100">
+                      <p className="text-[9px] font-bold text-brand-muted uppercase tracking-widest px-1 mb-2">Moving Guides</p>
+                      {BLOG_POSTS.map((post) => (
+                        <Link
+                          key={post.href}
+                          href={post.href}
+                          className={cn(
+                            "group block px-2 py-2 rounded-lg hover:bg-brand-neutral transition-colors",
+                            pathname === post.href ? "bg-blue-50" : ""
+                          )}
+                        >
+                          <span className={cn(
+                            "block text-[11px] font-semibold transition-colors",
+                            pathname === post.href ? "text-brand-blue" : "text-brand-dark group-hover:text-brand-blue"
+                          )}>
+                            {post.label}
+                          </span>
+                          <span className="block text-[10px] text-brand-muted">{post.desc}</span>
+                        </Link>
+                      ))}
+                      <Link href="/blog" className="block px-2 py-1.5 text-[10px] text-brand-blue font-semibold hover:underline">
+                        All guides &amp; articles →
                       </Link>
-                    ))}
+                    </div>
+                    {/* Info & Help */}
+                    <div className="py-1">
+                      <p className="text-[9px] font-bold text-brand-muted uppercase tracking-widest px-4 pt-2 mb-1">Info &amp; Help</p>
+                      {RESOURCE_LINKS.map((link) => (
+                        <Link
+                          key={link.href}
+                          href={link.href}
+                          className={cn(
+                            "group block px-4 py-2 hover:bg-brand-neutral transition-colors",
+                            pathname === link.href ? "bg-blue-50" : ""
+                          )}
+                        >
+                          <span className={cn(
+                            "block text-sm font-semibold transition-colors",
+                            pathname === link.href ? "text-brand-blue" : "text-brand-dark group-hover:text-brand-blue"
+                          )}>
+                            {link.label}
+                          </span>
+                          <span className="block text-[10px] text-brand-muted">{link.desc}</span>
+                        </Link>
+                      ))}
+                    </div>
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -457,6 +495,19 @@ export function Header() {
                   label: "Guides & Info",
                   content: (
                     <>
+                      <p className="text-[9px] font-bold text-brand-muted uppercase tracking-widest px-3 pb-1">Moving Guides</p>
+                      {BLOG_POSTS.map((post) => (
+                        <Link key={post.href} href={post.href}
+                          className={cn("block px-3 py-2 rounded-lg text-sm transition-colors",
+                            pathname === post.href ? "text-brand-blue font-semibold bg-blue-50" : "text-brand-muted hover:text-brand-dark hover:bg-brand-neutral")}
+                        >
+                          {post.label}
+                        </Link>
+                      ))}
+                      <Link href="/blog" className="block px-3 py-2 text-sm text-brand-blue font-bold">
+                        All guides →
+                      </Link>
+                      <p className="text-[9px] font-bold text-brand-muted uppercase tracking-widest px-3 pb-1 mt-2">Info &amp; Help</p>
                       {RESOURCE_LINKS.map((link) => (
                         <Link key={link.href} href={link.href}
                           className={cn("block px-3 py-2 rounded-lg text-sm transition-colors",
