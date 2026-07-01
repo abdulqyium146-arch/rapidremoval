@@ -66,7 +66,42 @@ Our removal logistics are fully planned before moving day — route, access, veh
       {
         question: "How much does a house removal in Wolverhampton cost?",
         answer:
-          "A typical 2-bedroom house removal within Wolverhampton starts from around £300–£450. Prices vary based on property size, distance, and additional services. We provide free no-obligation quotes.",
+          "A typical 2-bedroom house removal within Wolverhampton starts from around £300–£450. A 3-bedroom home costs £450–£700. A 4+ bedroom property starts from £700. Prices vary based on property size, distance, access, and additional services such as packing. All quotes are free, fixed, and no-obligation.",
+      },
+      {
+        question: "How much to remove a 3 bedroom house?",
+        answer:
+          "A 3-bedroom house removal in Wolverhampton typically costs £450–£700 for a local move. The UK national average is £700–£1,000. Price depends on the volume of items, distance, access at both properties, and whether packing is needed. Contact Get Rapid Removals for a free fixed-price quote.",
+      },
+      {
+        question: "What is the average cost of a removal company in the UK?",
+        answer:
+          "The UK average is £400–£600 for a 2-bedroom house and £700–£1,200 for a 3–4 bedroom property. Costs in the Midlands — including Wolverhampton — are typically 20–40% lower than London. Get Rapid Removals provides free, fixed-price quotes tailored to your exact move.",
+      },
+      {
+        question: "What day is the cheapest for removals?",
+        answer:
+          "Monday to Thursday are the cheapest days — Friday is the most in-demand (property completions) and Saturday is the second most popular. A mid-week move can reduce costs by 10–20% and typically offers more scheduling flexibility. Get Rapid Removals does not charge weekend surcharges, but mid-week slots are more readily available.",
+      },
+      {
+        question: "How soon should I book a removal company?",
+        answer:
+          "For planned house moves, book 2–4 weeks in advance. For peak dates — end of month, school holidays, Fridays — allow 4–6 weeks. Outside peak periods, 1–2 weeks is usually sufficient. For same-day and emergency moves, call us immediately on 07438 447286.",
+      },
+      {
+        question: "Should you book removals before exchange?",
+        answer:
+          "Check availability and provisionally discuss dates before exchange, but most companies advise against a confirmed booking until contracts are exchanged and your completion date is legally fixed. Get Rapid Removals will hold a provisional date for you at no charge until exchange of contracts.",
+      },
+      {
+        question: "Is it worth getting a removal company?",
+        answer:
+          "Yes. For most moves, a professional removal company saves significant time, prevents injury from heavy lifting, and provides full insurance on your belongings. A 2–3 bedroom local move in Wolverhampton costs £300–£700 — modest relative to the overall cost of moving and the stress it eliminates.",
+      },
+      {
+        question: "What will removal companies not move?",
+        answer:
+          "Most removal companies will not move hazardous materials (gas canisters, paint, aerosols, petrol), firearms, illegal substances, cash and irreplaceable documents (take these yourself), perishable food, live pets, and most living plants. Pianos, safes, and very large specialist items are typically priced separately. Always disclose unusual items at quotation stage.",
       },
       {
         question: "How long does a house removal take?",

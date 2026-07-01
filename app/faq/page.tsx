@@ -41,7 +41,7 @@ const FAQ_SECTIONS: FAQSection[] = [
     id: "pricing",
     title: "Pricing & Costs",
     icon: Banknote,
-    count: "13 questions",
+    count: "20 questions",
     description: "Transparent answers on what removals and clearances actually cost in Wolverhampton — no fluff, no hidden surprises.",
     faqs: [
       {
@@ -121,6 +121,47 @@ const FAQ_SECTIONS: FAQSection[] = [
         question: "Do you offer any discounts for flexible or off-peak moves?",
         snippet:
           "We price competitively as standard — we do not inflate prices to offer false discounts. We may offer adjusted rates for genuinely flexible move dates (mid-week, early-morning starts, or off-peak periods). Enquire at the quotation stage and we will always try to accommodate a fair price.",
+      },
+      {
+        question: "What is the average cost of a removal company in the UK?",
+        snippet:
+          "The average cost of a removal company in the UK is £400–£600 for a 2-bedroom house and £700–£1,200 for a 3–4 bedroom property. Costs vary significantly by region — removal companies in London charge 30–50% more than those in the Midlands. In Wolverhampton, a 2-bedroom house removal typically costs £300–£450 and a 3-bedroom £450–£700. Long-distance moves, packing, and specialist items add to the total. Get Rapid Removals quotes are free, fixed, and no-obligation.",
+        linkLabel: "Get a free no-obligation quote",
+        linkHref: "/quote",
+      },
+      {
+        question: "How much to remove a 3 bedroom house?",
+        snippet:
+          "A 3-bedroom house removal in Wolverhampton typically costs £450–£700 for a local move. The UK national average is approximately £700–£1,000. The price depends on the volume of items (3-bedroom homes vary enormously in content), distance, access at both properties, and whether packing is needed. Get Rapid Removals provides free fixed-price quotes — contact us for an accurate price for your specific move.",
+        linkLabel: "Get a 3-bed removal quote",
+        linkHref: "/quote",
+      },
+      {
+        question: "What day is the cheapest for removals?",
+        snippet:
+          "Monday to Thursday are the cheapest days for house removals. Friday is the most expensive and most in-demand day in the UK because it coincides with property completions. Saturday is the second busiest. Choosing a Tuesday, Wednesday, or Thursday move can reduce costs by 10–20% and typically gives you more scheduling flexibility. Get Rapid Removals does not apply weekend surcharges, but mid-week slots offer more availability and often better rates.",
+      },
+      {
+        question: "What is the most expensive part of moving?",
+        snippet:
+          "Conveyancing solicitor fees (£1,000–£3,000) and stamp duty are typically the largest moving costs overall. For the removal itself, the most expensive elements are move distance (fuel and drive time), property size (team size and number of vehicles), and specialist items such as pianos, safes, or antiques requiring bespoke handling. Professional packing services, storage, and access difficulties (no parking, high floors, narrow entrances) also add to the removal cost.",
+      },
+      {
+        question: "Is it normal to pay a removal company in advance?",
+        snippet:
+          "A small deposit (typically 10–25%) to secure a booking date is standard practice and reasonable. Full payment in advance — before the move has taken place — is not standard and is a potential red flag. Reputable removal companies take payment on completion or by bank transfer on moving day. Get Rapid Removals does not require a deposit for most standard jobs. Where a deposit is requested for larger or complex moves, it is agreed in writing at booking stage — never applied without prior notice.",
+      },
+      {
+        question: "How to price a house removal job?",
+        snippet:
+          "Removal companies price based on: property size and volume of items, move distance, team size required, access at both addresses (stairs, parking, narrow doorways), packing services required, specialist items (pianos, safes), and day of the week. For customers getting quotes, ensure each company is quoting for the exact same scope — property size, access, and services — and verify that all quotes include insurance. Get Rapid Removals provides free, no-obligation fixed-price quotes over the phone or online.",
+        linkLabel: "Get a free quote",
+        linkHref: "/quote",
+      },
+      {
+        question: "How much does a removals company owner make a year in the UK?",
+        snippet:
+          "A sole-operator man-and-van earns approximately £25,000–£40,000 net per year. A small owner-operated removal company with 1–2 vans typically generates £50,000–£100,000 in annual revenue, with net profit of £25,000–£50,000 depending on costs. Larger operations with multiple vehicles and staff scale further. The UK removal industry generates approximately £1.9bn annually. Get Rapid Removals (Companies House No. 15457292) is a registered limited company in England and Wales.",
       },
     ],
   },
@@ -311,7 +352,7 @@ const FAQ_SECTIONS: FAQSection[] = [
     id: "insurance",
     title: "Trust & Insurance",
     icon: Shield,
-    count: "9 questions",
+    count: "12 questions",
     description: "Our insurance, our people, our track record — everything you need to trust us with your home.",
     faqs: [
       {
@@ -364,6 +405,28 @@ const FAQ_SECTIONS: FAQSection[] = [
         snippet:
           "Yes. Full public liability insurance is carried on every job as standard. This covers any accidental damage caused to your property — walls, floors, doorframes, carpets, and fittings — during the move. It is included in your standard service, not an optional bolt-on.",
       },
+      {
+        question: "Is it worth getting a removal company?",
+        snippet:
+          "Yes — for most house moves, hiring a professional removal company is worth the cost. Key benefits include: significant time saving (a professional team moves in hours what takes most people days), injury prevention (back injuries from lifting heavy furniture are very common), proper insurance on all belongings, and far lower risk of damage to both furniture and the property. A professional removal in Wolverhampton costs £300–£700 for a 2–3 bedroom house — modest relative to overall moving costs and the stress it eliminates.",
+        linkLabel: "View our house removal service",
+        linkHref: "/services/house-removals",
+      },
+      {
+        question: "What are red flags with movers?",
+        snippet:
+          "Red flags with removal companies include: no fixed business address or company registration, no public liability or goods-in-transit insurance, requests for full cash payment before the move, quotes significantly below all competitors (often hiding undisclosed extras), no verifiable reviews or only anonymous feedback, resistance to providing a written quote or confirmation, unmarked vans with no company branding, and — for clearances — no waste carrier licence. Always verify: Companies House registration, insurance, and Google reviews before booking.",
+        detail: [
+          "Get Rapid Removals is registered at Companies House (No. 15457292), carries full public liability and goods-in-transit insurance, and holds a licensed waste carrier registration — all verifiable before you book.",
+        ],
+      },
+      {
+        question: "What will removal companies not move?",
+        snippet:
+          "Most removal companies will not move: hazardous materials (gas canisters, paint, aerosols, corrosive chemicals, petrol), firearms and ammunition, illegal or controlled substances, cash and irreplaceable documents (take these yourself), perishable food, live pets and livestock, and most living plants. Some charge separately for pianos, safes, hot tubs, and very large or specialist items. Always disclose any unusual items at quotation stage — any reputable company will advise you clearly in advance.",
+        linkLabel: "House removal service — what's included",
+        linkHref: "/services/house-removals",
+      },
     ],
   },
 
@@ -374,7 +437,7 @@ const FAQ_SECTIONS: FAQSection[] = [
     id: "booking",
     title: "Booking & Process",
     icon: Calendar,
-    count: "9 questions",
+    count: "12 questions",
     description: "How to book, what we need from you, and what to expect from the moment you enquire.",
     faqs: [
       {
@@ -426,6 +489,28 @@ const FAQ_SECTIONS: FAQSection[] = [
         question: "What if my completion or exchange date changes after I have booked?",
         snippet:
           "Contact us as soon as you know the date has changed and we will do everything possible to accommodate the new date. We understand that property chains are unpredictable. We work with you, not against you, and take a common-sense approach to date changes.",
+      },
+      {
+        question: "Should you book removals before exchange?",
+        snippet:
+          "You should discuss dates and check availability before exchange, but most removal companies advise against confirming a firm booking until exchange of contracts — when your completion date is legally fixed. Many companies will provisionally hold a date for you until exchange at no charge. Booking too early risks cancellation fees if the chain collapses or dates change. Discuss your timeline with us — we are experienced with property chains and will give you practical advice.",
+        detail: [
+          "Get Rapid Removals is flexible with date changes when circumstances change due to a chain. Contact us as early as possible and we will do everything to accommodate you.",
+        ],
+      },
+      {
+        question: "How much notice to give a removal company?",
+        snippet:
+          "For planned house moves, 2–4 weeks' notice is recommended — and 4–6 weeks for peak dates (end-of-month, school holidays, Fridays). Many removal companies accommodate moves with 1–2 weeks' notice outside peak periods. For same-day and emergency moves, call immediately — Get Rapid Removals maintains specific capacity for last-minute bookings. The more notice you give, the wider your choice of dates and the better chance of securing your preferred slot.",
+        linkLabel: "Book your removal",
+        linkHref: "/quote",
+      },
+      {
+        question: "What is a reasonable offer on a £300k house?",
+        snippet:
+          "A reasonable opening offer on a £300,000 house is typically 5–10% below asking price — £270,000–£285,000 — depending on market conditions and how long the property has been listed. In a competitive market, a full asking-price offer may be necessary. In a slower market, 5% below is common. Factors include the survey outcome, required works, comparable local sales, and the seller's urgency. Once your offer is accepted, you will need a conveyancer and a removal company — Get Rapid Removals provides free quotes for moves across Wolverhampton and the West Midlands.",
+        linkLabel: "Get a free removal quote",
+        linkHref: "/quote",
       },
     ],
   },
@@ -595,14 +680,14 @@ const faqSchema = {
 export const metadata: Metadata = {
   title: `Removal & Clearance FAQs | Wolverhampton | ${SITE.name}`,
   description:
-    "74 answers to your removal and clearance questions — prices, areas covered, insurance, same-day availability, moving day preparation and more. Get Rapid Removals: Wolverhampton's 5.0★ rated local removal company.",
+    "87 answers to your removal and clearance questions — prices, areas covered, insurance, booking notice, same-day availability, red flags with movers, moving day preparation and more. Get Rapid Removals: Wolverhampton's 5.0★ rated local removal company.",
   alternates: {
     canonical: `${SITE.url}/faq`,
   },
   openGraph: {
     title: `Removal FAQs | ${SITE.name} | Wolverhampton`,
     description:
-      "74 honest answers covering removal costs, areas served, insurance, booking, same-day service and more. Wolverhampton's most trusted local removal company.",
+      "87 honest answers covering removal costs, booking notice, red flags with movers, what removals won't move, same-day service and more. Wolverhampton's most trusted local removal company.",
     url: `${SITE.url}/faq`,
   },
 };
@@ -615,7 +700,7 @@ export default function FAQPage() {
       <PageHero
         badge="Help & FAQs"
         headline="Removal & Clearance FAQs"
-        subheadline="74 honest answers covering costs, coverage, insurance, process, same-day availability and everything else our customers ask."
+        subheadline="87 honest answers covering costs, booking notice, red flags with movers, what removals won't take, same-day availability and everything else our customers ask."
         breadcrumbs={[{ label: "FAQs" }]}
         showStats={false}
       />
