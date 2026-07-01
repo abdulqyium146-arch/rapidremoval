@@ -34,7 +34,13 @@ export const metadata: Metadata = {
   description:
     "Get Rapid Removals — Wolverhampton's trusted local removals company. Professional house removals, house clearance, man and van, office removals & packing services across Wolverhampton & the West Midlands. Fully insured, free quotes, same-day available. Call 07438 447286.",
   keywords: [
+    // High-volume Wolverhampton local (500/mo)
+    "removal companies Wolverhampton",
+    "removal firms Wolverhampton",
+    "removals Wolverhampton",
+    // Core Wolverhampton service terms
     "house removals Wolverhampton",
+    "house removal Wolverhampton",
     "removal company Wolverhampton",
     "man and van Wolverhampton",
     "house clearance Wolverhampton",
@@ -43,9 +49,38 @@ export const metadata: Metadata = {
     "furniture removals Wolverhampton",
     "same day removals Wolverhampton",
     "emergency removals Wolverhampton",
+    "home removals Wolverhampton",
+    "cheap removals Wolverhampton",
+    "house movers Wolverhampton",
+    // Brand signals
     "Get Rapid Removals",
+    "rapid removals",
+    // West Midlands coverage
     "removals West Midlands",
     "house clearance West Midlands",
+    "removal company West Midlands",
+    // High-intent near-me terms
+    "house removals near me",
+    "removals service near me",
+    "man and van near me",
+    "removal companies near me",
+    // NLP/LSI core service terms
+    "removals company",
+    "moving company",
+    "man with a van",
+    "man with van",
+    "household removals",
+    "house removal service",
+    "house removal companies",
+    "domestic removals",
+    "local removal company",
+    "professional removals",
+    "removal service",
+    "house moving service",
+    "residential moving company",
+    "packing services",
+    "long distance removals",
+    "commercial removals",
   ],
   authors: [{ name: SITE.name, url: SITE.url }],
   creator: SITE.name,
