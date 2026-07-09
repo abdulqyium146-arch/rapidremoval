@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/constants";
 import { SERVICES } from "@/lib/services-data";
 import { AREAS } from "@/lib/areas-data";
+import { ALL_SERVICE_AREA_COMBINATIONS } from "@/lib/service-area-data";
 
 const HIGH_VALUE_SERVICES = new Set([
   "house-removals",
@@ -122,5 +123,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
-  return [...staticPages, ...servicePages, ...areaPages, ...blogPosts];
+  const serviceAreaPages: MetadataRoute.Sitemap = ALL_SERVICE_AREA_COMBINATIONS.map(
+    ({ areaSlug, serviceSlug }) => ({
+      url: `${SITE.url}/areas/${areaSlug}/${serviceSlug}`,
+      lastModified: new Date("2026-07-09"),
+      changeFrequency: "monthly" as const,
+      priority:
+        areaSlug === "wolverhampton" && serviceSlug === "house-removals"
+          ? 0.92
+          : areaSlug === "wolverhampton"
+            ? 0.88
+            : 0.8,
+    })
+  );
+
+  return [...staticPages, ...servicePages, ...areaPages, ...blogPosts, ...serviceAreaPages];
 }
