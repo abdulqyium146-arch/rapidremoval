@@ -232,6 +232,16 @@ export function Footer() {
                 <ExternalLink className="w-3 h-3 text-brand-sky" />
                 Companies House
               </a>
+              <a
+                href="https://jmcremovals.co.uk/partners"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 rounded-lg px-3 py-1.5 text-xs font-medium text-white transition-colors"
+                aria-label="Trusted by JMC Removals — partner network"
+              >
+                <ExternalLink className="w-3 h-3 text-brand-sky" />
+                Trusted by JMC Removals
+              </a>
             </div>
           </div>
 
